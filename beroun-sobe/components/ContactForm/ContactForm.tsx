@@ -1,4 +1,5 @@
 import React, { useState, useRef, FormEvent } from 'react';
+import Image from 'next/image';
 import styles from './ContactForm.module.css';
 import * as EmailValidator from 'email-validator';
 import emailjs from 'emailjs-com';
@@ -6,6 +7,7 @@ import emailjs from 'emailjs-com';
 
 const ContactForm = () => {
   const [sent, setSent] = useState(false);
+  const [messageInvisible, setMessageInvisible] = useState(false)
   const [validatedFields, setValidatedFields] = useState({
     message: true,
     name: true,
@@ -21,21 +23,33 @@ const ContactForm = () => {
     const canBeSent = message && name && email;
     if (canBeSent) {
       setSent(true)
+      setMessageInvisible(false)
       // emailjs.sendForm(process.env.SERVICE_ID, process.env.TEMPLATE_ID, form.current, process.env.PUBLIC_KEY)
+      e.target.reset()
     }
     setValidatedFields({ message, name, email })
   }
 
-  const {message, name, email} = validatedFields;
+  const { message, name, email } = validatedFields;
+
+  const handleSentMessage = () => {
+    setSent(false)
+    setMessageInvisible(true)
+  }
 
   return (
-    <div className={sent ? styles.sent : ''} style={{ minHeight: '30rem' }}>
+    <div className={`${sent ? styles.sent : ''} ${styles.contactSection}`}>
+      <h1 className={styles.contactUs}>
+        <strong>NAPIŠTE NÁM</strong>
+        <div>
+          <div className={styles.blueDot} />
+          <div className={styles.blueDot} />
+        </div>
+      </h1>
       <div className={`${styles.wrapper} ${styles.centered}`}>
         <article className={styles.letter}>
           <form ref={form} onSubmit={sendEmail}>
             <div className={styles.side}>
-              <h1 className={styles.h1}>Napište nám:</h1>
-
               <p className={styles.p}>
                 <textarea className={styles.textarea} name="message" placeholder="Vaše zpráva"></textarea>
               </p>
@@ -59,7 +73,15 @@ const ContactForm = () => {
         <div className={`${styles.envelope} ${styles.front}`}></div>
         <div className={`${styles.envelope} ${styles.back}`}></div>
       </div>
-      <p className={`${styles.resultMessage} ${styles.centered}`}>Děkujeme Vám za zprávu! Pokud obsahuje dotaz, ozveme se Vám co nejdříve!</p>
+      <div>
+        <p className={`${styles.resultMessage} ${styles.centered} ${messageInvisible ? styles.messageInvisible : ''}`}>
+          Děkujeme Vám za zprávu! Pokud obsahuje dotaz, ozveme se Vám co nejdříve!
+        </p>
+      </div>
+      <button className={`${styles.resend} ${messageInvisible ? styles.messageInvisible : ''}`} onClick={() => handleSentMessage()}>
+        <Image src="/resend.svg" width="30px" height="30px" alt="resend" />
+      </button>
+
     </div>
   )
 }

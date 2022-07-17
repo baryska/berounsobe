@@ -19,7 +19,7 @@ const LINKS = [
     name: "CO CHCEME"
   },
   {
-    link: "#kontakt",
+    link: "#napistenam",
     name: "NAPIŠTE NÁM"
   },
 ]

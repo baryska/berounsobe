@@ -1,8 +1,8 @@
 import BS from '../public/bara.jpg';
 import EK from '../public/eva.jpg';
 import HK from '../public/hanka.jpg';
-import MV from '../public/martin.jpg';
-import AV from '../public/Adam.jpg';
+import MV from '../public/martin.jpeg';
+import AV from '../public/adam.jpeg';
 
 export const Profiles = [
   {
@@ -120,6 +120,54 @@ export const SmallProfiles = [
     title: "Stanislav Pospíšil",
     profession: "Živnostník v oboru stavebnictví",
     number: 21,
+  },
+]
+
+export const ProgrammePoints = [
+  {
+    theme: '',
+    image: 'empty',
+    paragraphs: [
+      `Beroun je krásné město, ale je čím dál více sužováno <strong>dlouho neřešenými problémy</strong>.`,
+      `Současné vedení radnice povolilo rozsáhlou developerskou výstavbu, aniž by myslelo na problémy, které tato výstavba přinese. V průběhu <strong>příštích pěti let</strong> přibyde v Berouně kvůli nové výstavbě <strong>6 500 nových obyvatel</strong>!`,
+      `Beroun na tento růst není připraven téměř v žádném ohledu - <strong>nestačí kapacita školek a škol</strong>, <strong>zácpy a hustá doprava</strong> jsou na denním pořádku a město má již nyní <strong>problémy s kapacitou vodovodu</strong>.`
+    ],
+  },
+  {
+    theme: 'Školy & školky',
+    image: 'schoolbag',
+    paragraphs: [
+      `Beroun je krásné město, ale je čím dál více sužováno <strong>dlouho neřešenými problémy</strong>.`,
+    `Současné vedení radnice povolilo rozsáhlou developerskou výstavbu, aniž by myslelo na problémy, které tato výstavba přinese. V průběhu <strong>příštích pěti let</strong> přibyde v Berouně kvůli nové výstavbě <strong>6 500 nových obyvatel</strong>!`,
+    `Beroun na tento růst není připraven téměř v žádném ohledu - nestačí kapacita školek a škol, zácpy a hustá doprava jsou na denním pořádku a město má již nyní problémy s kapacitou vodovodu.`
+    ]
+  },
+  {
+    theme: 'Doprava',
+    image: 'bus',
+    paragraphs: [
+      `Beroun je krásné město, ale je čím dál více sužováno <strong>dlouho neřešenými problémy</strong>.`,
+    `Současné vedení radnice povolilo rozsáhlou developerskou výstavbu, aniž by myslelo na problémy, které tato výstavba přinese. V průběhu <strong>příštích pěti let</strong> přibyde v Berouně kvůli nové výstavbě <strong>6 500 nových obyvatel</strong>!`,
+    `Beroun na tento růst není připraven téměř v žádném ohledu - nestačí kapacita školek a škol, zácpy a hustá doprava jsou na denním pořádku a město má již nyní problémy s kapacitou vodovodu.`
+    ]
+  },
+  {
+    theme: 'Městská zeleň & voda',
+    image: 'tree',
+    paragraphs: [
+      `Beroun je krásné město, ale je čím dál více sužováno <strong>dlouho neřešenými problémy</strong>.`,
+    `Současné vedení radnice povolilo rozsáhlou developerskou výstavbu, aniž by myslelo na problémy, které tato výstavba přinese. V průběhu <strong>příštích pěti let</strong> přibyde v Berouně kvůli nové výstavbě <strong>6 500 nových obyvatel</strong>!`,
+    `Beroun na tento růst není připraven téměř v žádném ohledu - nestačí kapacita školek a škol, zácpy a hustá doprava jsou na denním pořádku a město má již nyní problémy s kapacitou vodovodu.`
+    ]
+  },
+  {
+    theme: 'Otevřená radnice',
+    image: 'handshake',
+    paragraphs: [
+      `Beroun je krásné město, ale je čím dál více sužováno <strong>dlouho neřešenými problémy</strong>.`,
+    `Současné vedení radnice povolilo rozsáhlou developerskou výstavbu, aniž by myslelo na problémy, které tato výstavba přinese. V průběhu <strong>příštích pěti let</strong> přibyde v Berouně kvůli nové výstavbě <strong>6 500 nových obyvatel</strong>!`,
+    `Beroun na tento růst není připraven téměř v žádném ohledu - nestačí kapacita školek a škol, zácpy a hustá doprava jsou na denním pořádku a město má již nyní problémy s kapacitou vodovodu.`
+    ]
   },
 ]
 

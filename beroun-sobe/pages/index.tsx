@@ -7,10 +7,19 @@ import SmallProfile from '../components/SmallProfile/SmallProfile';
 import { Profiles, SmallProfiles } from '../data/index';
 import Statements from '../components/Statements/Statements';
 import IntroPicture from '../components/IntroPicture/IntroPicture';
-import ContactForm from '../components/ContactForm/ContactForm'
+import ContactForm from '../components/ContactForm/ContactForm';
+import Programme from '../components/Programme/Programme';
 import styles from '../styles/Home.module.css';
 
 const Home: NextPage = () => {
+
+  const handleScrollTop = () => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth',
+    });
+  }
 
   return (
     <div className={styles.container}>
@@ -30,6 +39,9 @@ const Home: NextPage = () => {
           <div className={styles.blueCircle__3} />
           <div className={styles.blueCircle__4} />
           <div className={styles.blueCircle__5} />
+          <button onClick={handleScrollTop} className={styles.arrow}>
+            <Image src="/up.svg" width="40px" height="40px" alt="arrow" />
+          </button>
         </section>
 
         <section id="kdojsme" >
@@ -59,21 +71,12 @@ const Home: NextPage = () => {
           </div>
         </section>
         <section id="cochceme" className={styles.cochceme}>
-          <div className={styles.blockquoteWrapper}>
-            <div className={styles.blockquote}>
-
-              <h1 className={styles.blockquote__h1}>
-                <Image src="/kids.svg" height="200" width="200" alt="transparentnost" />
-                <p style={{ paddingLeft: '2rem' }}>Jsme rodiče stejně jako vy. Pro vaše i naše děti zajistíme <strong>dostatek míst ve školách i školkách</strong>. Víme, jak na to.</p>
-              </h1>
-            </div>
-          </div>
+          <Programme />
         </section>
-        <section id="aktuality" className={styles.aktuality}>
-        </section>
-        <section id="kontakt" className={styles.contact}>
+        <section id="napistenam" className={styles.contact}>
           <ContactForm />
         </section>
+        <footer className={styles.footer}>© 2022 BEROUN SOBĚ | Barbora Skálová</footer>
       </main>
     </div>
   )
