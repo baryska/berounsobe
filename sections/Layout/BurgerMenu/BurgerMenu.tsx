@@ -1,8 +1,13 @@
 import React from 'react';
-import styles from './Burger.module.css'
+import styles from './Burger.module.css';
+
+interface Props {
+  onBurgerClick: () => void;
+  open: boolean;
+}
 
 
-const Burger = ({ onBurgerClick, open }) => {
+const Burger = ({ onBurgerClick, open }: Props) => {
 
   return (
     <div className={styles.button} onClick={() => onBurgerClick()}>
