@@ -24,7 +24,7 @@ const ContactForm = () => {
     if (canBeSent) {
       setSent(true)
       setMessageInvisible(false)
-      // emailjs.sendForm(process.env.SERVICE_ID, process.env.TEMPLATE_ID, form.current, process.env.PUBLIC_KEY)
+      emailjs.sendForm(process.env.SERVICE_ID as string, process.env.TEMPLATE_ID as string, form.current as HTMLFormElement, process.env.PUBLIC_KEY)
       e.target.reset()
     }
     setValidatedFields({ message, name, email })
