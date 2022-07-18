@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { useEffect, useRef, useState } from 'react';
+import { RefObject, useEffect, useRef, useState } from 'react';
 import Logo from '../../public/MainLogo.png';
 import Facebook from '../../public/Facebook.png';
 import Twitter from '../../public/Twitter.png';
@@ -26,9 +26,9 @@ const LINKS = [
 
 export const Header = () => {
   const [open, setOpen] = useState(false);
-  const node = useRef(null);
+  const node = useRef<HTMLDivElement>(null);
   const handleClickOutside = (event: MouseEvent) => {
-    if (!node.current || node.current.contains(event.target)) {
+    if (!node.current || node.current.contains(event.target as HTMLElement)) {
       return;
     }
     setOpen(false)
