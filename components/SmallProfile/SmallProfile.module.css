@@ -1,0 +1,104 @@
+.main {
+  padding: 10px 10px;
+}
+
+.card {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 250px;
+  max-width: 100%;
+  height: 250px;
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+    0px 5px 8px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+  transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.title {
+  margin: 0;
+  text-align: center;
+  padding: 1rem;
+  padding-top: 45%;
+  font: 20px Raleway;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.87);
+  transition-duration: 0.5s;
+}
+
+.card:hover>.title {
+  padding-top: 2rem;
+  font-weight: 500;
+  transition-duration: 0.5s;
+}
+
+.card:hover>.profession {
+  opacity: 1;
+  transition-duration: 0.8s;
+}
+
+.profession {
+  font: 20px Raleway;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+  font-weight: 600;
+  opacity: 0;
+  transition-duration: 0.8s;
+}
+
+.blueCircle {
+  position: absolute;
+  bottom: -15%;
+  left: -15%;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgba(76, 164, 202, 0.2);
+  transition-duration: 0.5s;
+}
+
+
+.card:hover > .blueCircle {
+  width: 500px;
+  height: 500px;
+  left: -30%;
+  bottom: -30%;
+  transition-duration: 1s;
+}
+
+.number {
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  font-size: 25px;
+  font-family: Montserrat;
+  transition-duration: 0.2s;
+}
+
+.card:hover > .number {
+  opacity: 0;
+  transition-duration: 0.2s;
+}
+
+.infoIcon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  visibility: hidden;
+}
+
+.card:hover > .infoIcon {
+  visibility: hidden;
+}
+
+@media (max-width: 768px) {
+  .infoIcon {
+    visibility: visible;
+  }
+}
