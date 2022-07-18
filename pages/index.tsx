@@ -38,8 +38,6 @@ const Home: NextPage = () => {
           <div className={styles.blueCircle} />
           <div className={styles.blueCircle__2} />
           <div className={styles.blueCircle__3} />
-          <div className={styles.blueCircle__4} />
-          <div className={styles.blueCircle__5} />
           <button onClick={handleScrollTop} className={styles.arrow}>
             <Image src="/up.svg" width="40px" height="40px" alt="arrow" />
           </button>
