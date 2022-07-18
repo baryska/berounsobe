@@ -15,7 +15,7 @@ const ContactForm = () => {
   })
   const form = useRef<HTMLFormElement | null>(null);
 
-  const sendEmail = (e) => {
+  const sendEmail = (e: any) => {
     e.preventDefault();
     const message = e.target[0].value.trim() !== '';
     const name = e.target[1].value.trim() !== '';
