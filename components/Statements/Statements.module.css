@@ -11,12 +11,6 @@
   display: flex;
 }
 
-.statement span {
-  font-weight: 700;
-  font-size: 1.7rem;
-  margin-left: 3px;
-}
-
 .statement {
   color: #161534;
   font-family: 'Montserrat';
@@ -73,11 +67,12 @@
 @media (max-width: 1600px) {
   .statements {
     margin: 1rem 3rem;
+    padding: 1rem 3rem;
   }
 
   .statement {
     font-size: 1.2rem;
-    padding: 0.5rem;
+    padding: 1rem;
   }
 
   .button {
@@ -93,7 +88,6 @@
 
   .statement {
     font-size: 0.9rem;
-    padding: 0rem;
   }
 
   .button {
@@ -107,10 +101,6 @@
 }
 
 @media (max-width: 1024px) {
-  .statements {
-    margin: 0 auto;
-  }
-
   .statements div {
    justify-content: center;
   }
@@ -126,6 +116,10 @@
 }
 
 @media (max-width: 650px) {
+  .statements {
+    margin: 1rem;
+    padding: 1rem;
+  }
   .statement {
     font-size: 0.8rem;
   }
