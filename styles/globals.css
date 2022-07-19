@@ -16,6 +16,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.programme_title {
+  font-size: 25px;
+}
+
 @media only screen and (min-width: 2200px) {
   body {
     margin: 0 auto;
@@ -26,5 +30,8 @@ html {
 @media (max-width: 786px) {
   #__next {
     display: flex
+  }
+  .programme_title {
+    font-size: 20px;
   }
 }

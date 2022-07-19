@@ -21,10 +21,10 @@ export const Profiles = [
     Tohle město má na víc!`
   },
   {
-    title: "Mgr. Barbora Skálová, Ph.D",
+    title: "Mgr. Barbora Skálová, Ph.D.",
     profession: "Softwarová vývojářka, lektorka programování pro děti",
     photo: BS,
-    text: "Narodila jsem se v Praze, ale už deset let žiji se svým manželem a dvěma dcerami v malebné části Berouna, v Hostímě. Vystudovala jsem finštinu a moderní dějiny, takže občas něco překládám, občas někde učím, ale živím se jako softwarová vývojářka. Webové aplikace vyvíjím i jako dobrovolník pro organizaci Česko.digital. Hodně pracuji s dětmi, které ve volnočasových kroužcích učím programovat a také s nimi každé léto jezdím jako vedoucí na vodácký tábor. Před pěti lety jsem v Hostímě iniciovala vznik osadního výboru a jako jeho předsedkyně se dlouhodobě snažím o zavedení vodovodu a kanalizace do Hostíma. Intenzivně se zajímám o stav českého školství a ráda bych přispěla k proměně českých škol v moderní, přátelské a inovativní instituce. Mám ráda severní Evropu, severský design a architekturu, knížky, rozhledny, řeky a moře a japonskou kuchyni."
+    text: "Narodila jsem se v Praze, ale už deset let žiji se svým manželem a dvěma dcerami v malebné části Berouna, v Hostímě. Vystudovala jsem finštinu a moderní dějiny, takže občas něco překládám, občas někde učím, ale živím se jako softwarová vývojářka. Webové aplikace vyvíjím i jako dobrovolník pro organizaci Česko.digital. Hodně pracuji s dětmi, které ve volnočasových kroužcích učím programovat, a také s nimi každé léto jezdím jako vedoucí na vodácký tábor. Před pěti lety jsem v Hostímě iniciovala vznik osadního výboru a jako jeho předsedkyně se dlouhodobě snažím o zavedení vodovodu a kanalizace do Hostíma. Intenzivně se zajímám o stav českého školství a ráda bych přispěla k proměně českých škol v moderní, přátelské a inovativní instituce. Mám ráda severní Evropu, severský design a architekturu, knížky, rozhledny, řeky a moře a japonskou kuchyni."
   },
   {
     title: "Mgr. Eva Kotrčová",
@@ -129,17 +129,39 @@ export const ProgrammePoints = [
     image: 'empty',
     paragraphs: [
       `Beroun je krásné město, ale je čím dál více sužováno <strong>dlouho neřešenými problémy</strong>.`,
-      `Současné vedení radnice povolilo rozsáhlou developerskou výstavbu, aniž by myslelo na problémy, které tato výstavba přinese. V průběhu <strong>příštích pěti let</strong> přibyde v Berouně kvůli nové výstavbě <strong>6 500 nových obyvatel</strong>!`,
-      `Beroun na tento růst není připraven téměř v žádném ohledu - <strong>nestačí kapacita školek a škol</strong>, <strong>zácpy a hustá doprava</strong> jsou na denním pořádku a město má již nyní <strong>problémy s kapacitou vodovodu</strong>.`
+      `Současné vedení radnice povolilo rozsáhlou developerskou výstavbu, aniž by myslelo na problémy, které tato výstavba přinese. V průběhu <strong>příštích pěti let</strong> přibyde v Berouně kvůli nové výstavbě <strong>1 800 nových bytů, 6 500 nových obyvatel a z toho 550 školou povinných dětí!</strong>`,
+      `Beroun na tento růst není připraven téměř v žádném ohledu - <strong>nestačí kapacita školek a škol</strong>, <strong>zácpy a hustá doprava</strong> jsou na denním pořádku a město má již nyní <strong>problémy s kapacitou vodovodu</strong>.`,
+      `Radnice nejen že situaci neřeší, ale navíc <strong>plánovala i další výstavbu v lokalitě Na Ptáku</strong>, kterou se nám z lavic opozičních zastupitelů prozatím podařilo zastavit.`,
+      `S obyvateli Berouna navíc současné vedení města <strong>komunikuje arogantně a povýšeně</strong> - ať na jednání zastupitelstva, nebo na sociálních sítích.`,
+      `V opozici se nám mnohé věci podařily, ale sílu připravit se na překotné změny, které Beroun čekají, budeme mít jen v radě města. Po mnoha letech vlády stále stejných lidí <strong>Beroun konečně potřebuje změnu</strong>.`
     ],
   },
   {
     theme: 'Školy & školky',
     image: 'schoolbag',
     paragraphs: [
-      `Beroun je krásné město, ale je čím dál více sužováno <strong>dlouho neřešenými problémy</strong>.`,
-    `Současné vedení radnice povolilo rozsáhlou developerskou výstavbu, aniž by myslelo na problémy, které tato výstavba přinese. V průběhu <strong>příštích pěti let</strong> přibyde v Berouně kvůli nové výstavbě <strong>6 500 nových obyvatel</strong>!`,
-    `Beroun na tento růst není připraven téměř v žádném ohledu - nestačí kapacita školek a škol, zácpy a hustá doprava jsou na denním pořádku a město má již nyní problémy s kapacitou vodovodu.`
+      `&#9899<strong className="programme_title"> JAK JE TO U NÁS:</strong>`,
+      `<strong>Do roku 2027</strong> přibyde v Berouně podle demografických odhadů <strong>minimálně 550 dětí</strong> ve školním věku.`,
+    `Beroun utratil v posledních dvou letech <strong>235 milionů</strong> za rekonstrukci dvou základních škol a navýšil
+    jejich kapacitu o <strong>pouhých 90 míst</strong>. To je cca <strong>2,5 milionu na jedno místo</strong>.`,
+    `<strong>Kapacita mateřských škol</strong> je již dnes <strong>zcela naplněna</strong>. Současné vedení navýšilo kapacitu školek za poslední 4 roky o <strong>pouhých 44 míst</strong>. 
+    <strong>Stavba plánované školky Na Máchovně je ve skluzu</strong>, zatím není připravená ani 
+    projektová dokumentace, přestože město plánovalo otevřít školku již ve školním roce 2024/2025. Kvůli neregulované výstavbě bude v roce 2030 <strong>chybět v Berouně
+    minimálně 80 míst v MŠ</strong>, a to jen v případě, že se zdárně dokončí školka Na Máchovně.`,
+    `V příštích letech hrozí ještě větší <strong>nedostatek míst ve školách a školkách</strong>. Při zachování stávající
+    spádovosti bude kapacita zcela nedostatečná. Současná radnice navrhuje <strong>vyloučení dětí z okolních
+    obcí</strong> z možnosti navštěvovat školy v Berouně. Za celé volební období nebylo vedení města schopno dojít ke konstruktivní dohodě s okolními obcemi, ani zásadně navýšit kapacitu škol a školek.`,
+    `Radnice ve svých plánech zcela otevřerně <strong>spoléhá na soukromé školky, soukromé dětské skupiny a soukromé školy</strong>, přestože každé berounské dítě má nárok na bezplatné vzdělávání a město je povinno
+    mu jej nabídnout. V součanosti z 97 dětí v berounských soukromých školkách je jen 30 z Berouna.`,
+    `Investorovi soukromé školy <strong>odpustilo současné vedení 90 % developerského poplatku</strong>, který bude v rozpočtu města chybět.`,
+    `&#9899; <strong style="font-size:25px;">JAK TO DĚLAJÍ JINDE:</strong>`,
+    `V Mníšku pod Brdy postavili zcela nový pavilon základní školy, který sbírá architektonické ceny, za 112 milionů Kč. Vytvořili 160 nových míst, jedno tedy vyšlo na cca 700 000 Kč.`,
+    `V Letech u Dobřichovic postavili novou školu. Vzniklo 125 nových míst a stavba vyšla na 52 milionů. Za jedno nové místo tedy Lety zaplatily cca 400 000 Kč.`,
+    `&#9899; <strong className="programme_title">CO NAVRHUJEME:</strong>`,
+    `Dáme <strong>absolutní prioritu výstavbě nové školy a školky</strong>, neexistuje důležitější investice než do vzdělání našich dětí. Nenabízíme jen plané sliby.`,
+    `Než budou nové budovy postaveny, <strong>najdeme alternativní prostory ve vlastnictví města a kraje</strong>. Máme již vytipované konkrétní objekty.`,
+    `Začneme konstruktivně a se vzájemným respektem <strong>vyjednávat s okolními obcemi a hledat společné řešení</strong>. Současné vedení města k žádné dohodě nikdy nedospělo a naopak chce řešit
+    problémy, které samo zanedbalo, na úkor dětí z okolních obcí.`
     ]
   },
   {

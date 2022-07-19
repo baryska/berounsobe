@@ -117,4 +117,8 @@ div.pullRight a:hover:before {
   nav.navPanel {
     padding-left: 5rem;
   }
+
+  .socialIcon {
+    margin: 0 0.7rem;
+  }
 }
