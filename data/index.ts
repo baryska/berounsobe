@@ -151,10 +151,10 @@ export const ProgrammePoints = [
     `V příštích letech hrozí ještě větší <strong>nedostatek míst ve školách a školkách</strong>. Při zachování stávající
     spádovosti bude kapacita zcela nedostatečná. Současná radnice navrhuje <strong>vyloučení dětí z okolních
     obcí</strong> z možnosti navštěvovat školy v Berouně. Za celé volební období nebylo vedení města schopno dojít ke konstruktivní dohodě s okolními obcemi, ani zásadně navýšit kapacitu škol a školek.`,
-    `Radnice ve svých plánech zcela otevřerně <strong>spoléhá na soukromé školky, soukromé dětské skupiny a soukromé školy</strong>, přestože každé berounské dítě má nárok na bezplatné vzdělávání a město je povinno
+    `Radnice ve svých plánech zcela otevřeně <strong>spoléhá na soukromé školky, dětské skupiny a soukromé školy</strong>, přestože každé berounské dítě má nárok na bezplatné vzdělávání a město je povinno
     mu jej nabídnout. V součanosti z 97 dětí v berounských soukromých školkách je jen 30 z Berouna.`,
     `Investorovi soukromé školy <strong>odpustilo současné vedení 90 % developerského poplatku</strong>, který bude v rozpočtu města chybět.`,
-    `&#9899; <strong style="font-size:25px;">JAK TO DĚLAJÍ JINDE:</strong>`,
+    `&#9899; <strong className="programme_title">JAK TO DĚLAJÍ JINDE:</strong>`,
     `V Mníšku pod Brdy postavili zcela nový pavilon základní školy, který sbírá architektonické ceny, za 112 milionů Kč. Vytvořili 160 nových míst, jedno tedy vyšlo na cca 700 000 Kč.`,
     `V Letech u Dobřichovic postavili novou školu. Vzniklo 125 nových míst a stavba vyšla na 52 milionů. Za jedno nové místo tedy Lety zaplatily cca 400 000 Kč.`,
     `&#9899; <strong className="programme_title">CO NAVRHUJEME:</strong>`,
