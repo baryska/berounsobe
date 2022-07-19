@@ -13,9 +13,6 @@ interface Props {
 const Profile = ({ title, profession, photo, text }: Props) => {
   const [infoOpen, setInfoOpen] = useState(false);
 
-
-
-
   return (
     <>
       <main className={styles.main}>
