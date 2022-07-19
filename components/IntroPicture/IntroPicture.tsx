@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import People from '../../public/vsichni.jpeg';
+import People from '../../public/vsichni_small.jpeg';
 import Typewriter from 'typewriter-effect';
 import whiteLogo from '../../public/BerounsobeLogo.png'
 import styles from './IntroPicture.module.css';

@@ -1,8 +1,8 @@
-import BS from '../public/bara.jpg';
-import EK from '../public/eva.jpg';
-import HK from '../public/hanka.jpg';
-import MV from '../public/martin.jpeg';
-import AV from '../public/adam.jpeg';
+import BS from '../public/bara_small.jpg';
+import EK from '../public/eva_small.jpg';
+import HK from '../public/hanka_small.jpg';
+import MV from '../public/martin_small.jpeg';
+import AV from '../public/adam_small.jpg';
 
 export const Profiles = [
   {
@@ -21,7 +21,7 @@ export const Profiles = [
     Tohle město má na víc!`
   },
   {
-    title: "Mgr. Barbora Skálová PhD.",
+    title: "Mgr. Barbora Skálová, Ph.D",
     profession: "Programátorka, lektorka programování pro děti, překladatelka",
     photo: BS,
     text: "Narodila jsem se v Praze, ale už deset let žiji se svým manželem a dvěma dcerami v malebné části Berouna, v Hostímě. Vystudovala jsem finštinu a moderní dějiny, takže občas něco překládám, občas někde učím, ale živím se jako softwarová vývojářka. Webové aplikace vyvíjím i jako dobrovolník pro organizaci Česko.digital. Hodně pracuji s dětmi, které ve volnočasových kroužcích učím programovat a také s nimi každé léto jezdím jako vedoucí na vodácký tábor. Před pěti lety jsem v Hostímě iniciovala vznik osadního výboru a jako jeho předsedkyně se dlouhodobě snažím o zavedení vodovodu a kanalizace do Hostíma. Intenzivně se zajímám o stav českého školství a ráda bych přispěla k proměně českých škol v moderní, přátelské a inovativní instituce. Mám ráda severní Evropu, severský design a architekturu, knížky, rozhledny, řeky a moře a japonskou kuchyni."

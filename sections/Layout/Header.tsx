@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useRef, useState } from 'react';
-import Logo from '../../public/mainLogo.png';
+import Logo from '../../public/mainLogo_small.png';
 import Facebook from '../../public/Facebook.png';
 import Twitter from '../../public/Twitter.png';
 import Instagram from '../../public/Instagram.png'
