@@ -22,7 +22,7 @@ export const Profiles = [
   },
   {
     title: "Mgr. Barbora Skálová, Ph.D",
-    profession: "Programátorka, lektorka programování pro děti, překladatelka",
+    profession: "Softwarová vývojářka, lektorka programování pro děti",
     photo: BS,
     text: "Narodila jsem se v Praze, ale už deset let žiji se svým manželem a dvěma dcerami v malebné části Berouna, v Hostímě. Vystudovala jsem finštinu a moderní dějiny, takže občas něco překládám, občas někde učím, ale živím se jako softwarová vývojářka. Webové aplikace vyvíjím i jako dobrovolník pro organizaci Česko.digital. Hodně pracuji s dětmi, které ve volnočasových kroužcích učím programovat a také s nimi každé léto jezdím jako vedoucí na vodácký tábor. Před pěti lety jsem v Hostímě iniciovala vznik osadního výboru a jako jeho předsedkyně se dlouhodobě snažím o zavedení vodovodu a kanalizace do Hostíma. Intenzivně se zajímám o stav českého školství a ráda bych přispěla k proměně českých škol v moderní, přátelské a inovativní instituce. Mám ráda severní Evropu, severský design a architekturu, knížky, rozhledny, řeky a moře a japonskou kuchyni."
   },

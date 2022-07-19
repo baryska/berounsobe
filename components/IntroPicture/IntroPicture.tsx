@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import People from '../../public/vsichni_small.jpeg';
+import Group from '../../public/vsichni_small.jpeg';
 import Typewriter from 'typewriter-effect';
 import whiteLogo from '../../public/BerounsobeLogo.png'
 import styles from './IntroPicture.module.css';
@@ -12,7 +12,7 @@ function IntroPicture() {
 
   return (
     <div className={styles.introPicture}>
-      <Image src={People} alt="smiling-people" />
+      <Image src={Group} alt="group" />
       <div className={styles.typewriterWrapper}>
         <Typewriter
           onInit={(typewriter) => {

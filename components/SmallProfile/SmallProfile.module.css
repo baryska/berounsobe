@@ -101,4 +101,27 @@
   .infoIcon {
     visibility: visible;
   }
+  .card {
+    height: 150px;
+  }
+
+  .title {
+    padding-top: 25%;
+  }
+
+  .blueCircle {
+    bottom: -25%;
+    left: -20%;
+  }
+
+  .card:hover > .blueCircle {
+    left: -40%;
+    bottom: -40%;
+  }
+
+  .profession {
+    padding: 0 5px;
+    margin-top: 0;
+    font-size: 15px;
+  }
 }
