@@ -292,7 +292,8 @@ export const ProgrammePoints = [
     `Vytvoříme <strong>transparentní rozpočet</strong>, který bude dostupný <strong>v rozklikávací formě</strong> na webových stránkách města.`,
     `Budeme <strong>otevření, slušní a vstřícní podnětům a názorům občanů</strong>.`,
     `Budeme <strong>otevřeně komunikovat se všemi zastupiteli</strong> o prioritách, připravovaných projektech a klíčových rozhodnutích.`,
-    `Posuneme <strong>začátek zasedání zastupitelstva na 17. hodinu</strong>, abychom umožnili účast těm, kteří se nemohou dříve uvolnit ze zaměstnání.`
+    `Posuneme <strong>začátek zasedání zastupitelstva na 17. hodinu</strong>, abychom umožnili účast těm, kteří se nemohou dříve uvolnit ze zaměstnání.`,
+    `Na webových stránkách města bude <strong>snadno dohledatelný program zastupitelstva</strong> včetně potřebných materiálů a dokumentů. <strong>Zápisy z rady budou opět veřejné</strong>.`
     ]
   },
 ]
