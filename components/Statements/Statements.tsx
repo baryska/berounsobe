@@ -7,7 +7,7 @@ function Statements() {
   return (
     <div className={styles.statements} >
       <div>
-        <p className={styles.statement}>Věděli jste, že <strong>v příštích 5 letech</strong> přibyde v Berouně kvůli neregulované developerské výstavbě <strong>1 800 bytů a 6 500 nových obyvatel</strong>?</p>
+        <p className={styles.statement}>Věděli jste, že <strong>v příštích 5 letech</strong> přibude v Berouně kvůli neregulované developerské výstavbě <strong>1 800 bytů a 6 500 nových obyvatel</strong>?</p>
       </div>
       <BlueDots />
       <div>

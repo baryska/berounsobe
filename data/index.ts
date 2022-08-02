@@ -258,10 +258,41 @@ export const ProgrammePoints = [
     theme: 'Otevřená radnice',
     image: 'handshake',
     paragraphs: [
-      `Beroun je krásné město, ale je čím dál více sužováno <strong>dlouho neřešenými problémy</strong>.`,
-    `Současné vedení radnice povolilo rozsáhlou developerskou výstavbu, aniž by myslelo na problémy, které tato výstavba přinese. V průběhu <strong>příštích pěti let</strong> přibyde v Berouně kvůli nové výstavbě <strong>6 500 nových obyvatel</strong>!`,
-    `Beroun na tento růst není připraven téměř v žádném ohledu - nestačí kapacita školek a škol, zácpy a hustá doprava jsou na denním pořádku a město má již nyní problémy s kapacitou vodovodu.`,
-    
+      `&#9899<strong className="programme_title"> JAK JE TO U NÁS:</strong>`,
+    `Současné vedení města má <strong>zásadní problém s transparentností</strong>. Není například možné sledovat vyřizování jednotlivých podnětů a podání. Vedení radnice se rovněž rozhodlo <strong>nezveřejňovat zápisy z rady města</strong> a <strong>krátit opoziční příspěvky v radničním listu</strong>.`,
+    `Na námitky nebo dotazy berounských občanů na zasedání zastupitelstva reaguje vedení města i radní <strong>arogantně a přehlíživě</strong>. Vystupování současného vedení se <strong>proslavilo i v celostátních médiích</strong>.
+    Vstřícných a respektujících reakcí nejsou představitelé města schopni ani na sociálních sítích.`,
+    `Další klíčový problém spočívá v <strong>nekoncepčním územním plánování a plánování investic</strong>, kdy město často jedná <strong>v rozporu se svými strategickými dokumenty</strong>.`,
+    `<strong>&#9679;</strong> <strong>Rekonstrukce MŠ Vrchlického na Závodí</strong> – přístavba s novými okny a opravou toalet za cca 7 milionů kč v roce 2018 následovaná kompletní rekonstrukcí v roce 2022 za 50 milionů, okna i toalety jsou opět vybourány.`,
+    `<strong>&#9679;</strong> V květnu 2018 před volbami do zastupitelstva prezentuje vedení města <strong>záměr parků „Homolka“ a „Na Špici“</strong>, příprava parků je následně <strong>vyškrtnuta z rozpočtu hned na jaře 2019</strong>.`,
+    `<strong>&#9679;</strong> Před Vánocemi 2019 byl na sídlišti na objednávku vedení města <strong>pokácen vzrostlý smrk</strong>, po záplavě negativních reakcí přišlo město s vysvětlením, že zde byl již zamýšlen park a nezdravý strom se stejně musel porazit. 
+    Dokumentaci k parku však město zadalo až po nesmyslném pokácení stromu.`,
+    `<strong>&#9679;</strong> <strong>Studie proveditelnosti vodovodu v Hostímě</strong>, kterou odhlasovalo zastupitelstvo, byla bez opětovného hlasování zastupitelstva <strong>zamítnuta místostarostou</strong>.`,
+    `<strong>&#9679;</strong> Do klíčové <strong>komise územního plánování</strong>, která předkládá vedení města návrhy změn, se <strong>nedostal žádný ze zástupců opozice</strong>, přestože náš zastupitel Martin Veselý je architektem. Naopak se do komise dostávají lidé, 
+    kteří k územnímu plánování nemají žádné vzdělání. Ve městě bují <strong>klientelismus</strong>.`,
+    `<strong>&#9679;</strong> Poslední velká <strong>změna územního plánu</strong> proběhla v roce 2017, územní plán by měl být právně závazný dokument s dlouhodobým výhledem (cca 10 let), vedení města však umožnilo jeho důkladnou revizi již v roce 2019, 
+    tj. <strong>po pouhých 2 letech</strong>.`,
+    `<strong>&#9679;</strong> Termín podání připomínek k územnímu plánu byl začátek roku 2020, přesto se <strong>nejvýznamnější a nejkontroverznější návrh nové výstavby 250 domů Na Ptáku</strong> dostal do řízení podáním z února 2020.
+    Balík 64 návrhů na pořízení změn územního plánu byl tak projednáván ve stejný den jako rozpočet na příští rok, pro zrychlení přijetí tohoto kontroverzního návrhu navíc vedení města navrhlo schvalovat celý balík najednou.`,
+    `<strong>&#9679;</strong> Vedení města <strong>nebere v potaz návrhy některých odborných komisí</strong>, např. komise životního prostředí.`,
+    `&#9899; <strong className="programme_title">JAK TO DĚLAJÍ JINDE:</strong>`,
+    `Dlouhodobý plán investic přesahující jedno volební období doporučuje Národní síť zdravých měst, která se snaží šířit zásady dobré praxe. Například Turnov má pětiletý výhled investičních priorit, občané mají přehled o plnění slibů i přípravě projektů a 
+    mohou připomínkami vylepšovat projektovou přípravu i realizaci.`,
+    `V mnoha obcích funguje skvěle participativní rozpočet, kdy obyvatelé dané obce spolurozhodují o veřejných investicích. V Berouně je sice rovněž nastaven podobný systém, ale není zde politická vůle efektivně sbírat podněty od občanů a hlavně o nich veřejně diskutovat.`,
+    `V Jihlavě funguje systém PUPík - internetové Připomínkování územního plánu. Pro návštěvníky jsou připraveny všechny potřebné informace o územním plánu a postup připomínkování. Zájemce si může pomocí jednoduchého ovládání návrh územního plánu projít a potom odeslat připomínku. Zpět obdrží e-mail o doručení, následně je informován o dalším zpracování připomínky.`,
+    `Město Brno uveřejňuje rozsáhlé informace k rozpočtu, které jsou dostupné nejen v pdf, ale
+    i xls formátech. Rozpočet je možné prohlížet i v klikací formě, kde může uživatel mimo jiné
+    sledovat přehledně plnění rozpočtu po jednotlivých čtvrtletích.`,
+    `&#9899; <strong className="programme_title">CO NAVRHUJEME:</strong>`,
+    `<strong>Nebudeme měnit územní plán</strong>, pokud k tomu nebudou zákonné důvody.`,
+    `<strong>Nepřipustíme rozšíření zastavitelných ploch</strong> územního plánu.`,
+    `<strong>Stanovíme plán investic</strong> na celé volební období, budeme <strong>jasně komunikovat své záměry</strong> a vysvětlovat, proč je považujeme za vhodné.`,
+    `Mezi naše investiční priority bude patřit <strong>náprava dluhu vedení města</strong> z minulých 15 let, tj. výstavba obchvatu a nových obecních škol a školek.`,
+    `Zvýšíme objem projektů, které budou odsouhlaseny formou <strong>participativního rozpočtu</strong>.`,
+    `Vytvoříme <strong>transparentní rozpočet</strong>, který bude dostupný <strong>v rozklikávací formě</strong> na webových stránkách města.`,
+    `Budeme <strong>otevření, slušní a vstřícní podnětům a názorům občanů</strong>.`,
+    `Budeme <strong>otevřeně komunikovat se všemi zastupiteli</strong> o prioritách, připravovaných projektech a klíčových rozhodnutích.`,
+    `Posuneme <strong>začátek zasedání zastupitelstva na 17. hodinu</strong>, abychom umožnili účast těm, kteří se nemohou dříve uvolnit ze zaměstnání.`
     ]
   },
 ]
