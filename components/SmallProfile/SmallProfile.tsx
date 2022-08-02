@@ -34,11 +34,6 @@ function SmallProfile({ title, profession, photo, number }: Props) {
           <div className={styles.info} style={infoOpen ? { transform: 'translateY(70%) translateZ(0)' } : { transform: 'translateY(100%) translateY(-55px) translateZ(0)' }}>
             <div className={styles.title}>
               <p>{title}</p>
-              {infoOpen && (
-                <button className={styles.closeIcon}>
-                  <Image src="/cross.svg" alt="close" width="30px" height="30px" />
-                </button>
-              )}
             </div>
             <p className={styles.profession}>{profession}</p>
           </div>

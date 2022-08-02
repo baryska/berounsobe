@@ -30,7 +30,7 @@
 
 .title {
   margin: 0;
-  padding: 17px 15px 11px 15px;
+  padding: 17px 15px 16px 15px;
   line-height: 1;
   font: 20px Raleway;
   color: rgba(0, 0, 0, 0.87);
@@ -40,7 +40,7 @@
   margin: 0;
   padding: 0 12px;
   font: 15px Raleway;
-  line-height: 1.5;
+  line-height: 1;
 }
 
 .infoIcon, .closeIcon {
