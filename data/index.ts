@@ -25,15 +25,27 @@ export const Profiles = [
     profession: "Učitel, pojistný matematik",
     photo: AV,
     text: `V Berouně žiji od narození, k místu mám velký vztah a věřím, že tohle město má na víc!
-    V roce 2018 jsem se stal zastupitelem, ale jen opozičním, bez přímého vlivu na rozhodnutí vedení města. Přesto jsem přinášel podněty a zlepšení. Za nejdůležitější úspěch beru zablokovování výstavby “Na Ptáku”, kde současné vedení navrhovalo změnit územní plán a rozšířit možnou zástavbu (hlasovácí pat 10:10). Tento záměr mě motivuje i nadále být v zastupitelstvu a nedovolit další rozšiřování ploch pro výstavbu. Za další úspěchy považuji prosazení participativního rozpočtu, alej podél Plzeňské ulice, nebo založení spolku Berounská zeleň. Z nesplněných bych zmínil návrh na dlouhodobé a transparentní plánování veřejných investic.
-    Nyní jsem učitel, dříve pojistný matematik. Tato kombinace mi dává přehled o potřebách jedinců, ale i o demografii, statistice, ekonomii nebo vodohospodářství.
+    V roce 2018 jsem se stal zastupitelem, ale jen opozičním, bez přímého vlivu na rozhodnutí vedení města. 
+    Přesto jsem přinášel podněty a zlepšení. Za nejdůležitější úspěch beru zablokovování výstavby “Na Ptáku”, 
+    kde současné vedení navrhovalo změnit územní plán a rozšířit možnou zástavbu (hlasovácí pat 10:10). 
+    Tento záměr mě motivuje i nadále být v zastupitelstvu a nedovolit další rozšiřování ploch pro výstavbu. 
+    Za další úspěchy považuji prosazení participativního rozpočtu, alej podél Plzeňské ulice, nebo založení spolku Berounská zeleň. 
+    Z nesplněných bych zmínil návrh na dlouhodobé a transparentní plánování veřejných investic.
+    Nyní jsem učitel, dříve pojistný matematik. Tato kombinace mi dává přehled o potřebách jedinců, ale i o demografii, 
+    statistice, ekonomii nebo vodohospodářství.
     `
   },
   {
     title: "Mgr. Barbora Skálová, Ph.D.",
     profession: "Softwarová vývojářka, lektorka programování pro děti",
     photo: BS,
-    text: "Narodila jsem se v Praze, ale už deset let žiji se svým manželem a dvěma dcerami v malebné části Berouna, v Hostímě. Vystudovala jsem finštinu a moderní dějiny, takže občas něco překládám, občas někde učím, ale živím se jako softwarová vývojářka. Webové aplikace vyvíjím i jako dobrovolník pro organizaci Česko.digital. Hodně pracuji s dětmi, které ve volnočasových kroužcích učím programovat, a také s nimi každé léto jezdím jako vedoucí na vodácký tábor. Před pěti lety jsem v Hostímě iniciovala vznik osadního výboru a jako jeho předsedkyně se dlouhodobě snažím o zavedení vodovodu a kanalizace do Hostíma. Intenzivně se zajímám o stav českého školství a ráda bych přispěla k proměně českých škol v moderní, přátelské a inovativní instituce. Mám ráda severní Evropu, severský design a architekturu, knížky, rozhledny, řeky a moře a japonskou kuchyni."
+    text: `Narodila jsem se v Praze, ale už deset let žiji se svým manželem a dvěma dcerami v malebné části Berouna, v Hostímě. Před pěti lety jsem zde iniciovala vznik 
+    osadního výboru a jako jeho předsedkyně se dlouhodobě snažím o zavedení vodovodu a kanalizace do Hostíma.
+    Vystudovala jsem finštinu a moderní dějiny, takže občas něco překládám, občas někde učím, ale živím se jako softwarová vývojářka. 
+    Webové aplikace vyvíjím i jako dobrovolník pro organizaci Česko.digital. Hodně pracuji s dětmi, které ve volnočasových kroužcích 
+    učím programovat, a také s nimi každé léto jezdím jako vedoucí na vodácký tábor.  Intenzivně se zajímám 
+    o stav českého školství a ráda bych přispěla k proměně českých škol v moderní, přátelské a inovativní instituce. Mám ráda severní Evropu, 
+    severský design a architekturu, knížky, rozhledny, řeky a moře a japonskou kuchyni.`
   },
   {
     title: "Mgr. Eva Kotrčová",
@@ -201,8 +213,20 @@ export const ProgrammePoints = [
     `Již více než 3 volební období mluví vedení města o stavbě nového jižního mostu, ale mezitím hlavní most přes Berounku zchátral tak, že bude nutno jeho větší část zcela vyměnit. <strong>Nově plánovanému jižnímu mostu budou chybět navazující komunikace, a tak zatím vypadá, že bude vybudována pouze dočasná náhrada pro pokrytí dopravy po dobu opravy mostu stávajícího.</strong>`,
     `Přestože všechny dopravní studie již léta doporučují zprůjezdnit Beroun vybudováním alternativních komunikací tak, že se propojí stávající trasy, fakticky se <strong>v těchto záměrech nijak nepokročilo</strong> (Tyršova – Koněpruská, Višňová, Třída míru – Lidl, OMV jih – Maxit, Golf - K Zabitému).`,
     `Vybudování obchvatových komunikací OMV jih – Maxit a Golf - K Zabitému <strong>mělo být zajištěno soukromými investory</strong> jako součást souhlasu města s jejich investičními záměry. Město z nepochopitelných důvodů na splnění těchto závazků netrvalo, investorům v rozporu se smlouvami i vydanými povoleními záměry zkolaudovalo a dokonce jim <strong>prominulo i pokuty v celkové výši 45 milionů korun.</strong>`,
-    `<strong>Obyvatelé Závodí mají kvůli těmto kauzám oprávněné obavy</strong> z opakování situace při povolení <strong>developerského projektu Pískovna (200 bytů)</strong> a radnicí slibovaném dopravním řešení situace, založeném na „severním obchvatu“. Zůstane stejně jako golf a Maxit také jen na papíře, aby se podmínkám územního plánu učinilo za dost? <strong>Město ani developer nemají totiž potřebné pozemky pro obchvat ve svém vlastnictví.</strong> 
-    `
+    `<strong>Obyvatelé Závodí mají kvůli těmto kauzám oprávněné obavy</strong> z opakování situace při povolení <strong>developerského projektu Pískovna (200 bytů)</strong> a radnicí slibovaném dopravním řešení situace, založeném na „severním obchvatu“. Zůstane stejně jako golf a Maxit také jen na papíře, aby se podmínkám územního plánu učinilo za dost? <strong>Město ani developer nemají totiž potřebné pozemky pro obchvat ve svém vlastnictví.</strong>`,
+    `&#9899; <strong className="programme_title">JAK TO DĚLAJÍ JINDE:</strong>`,
+    `Města, kde se vedení řídí zájmem svých občanů, neodpouští developerům jejich závazky. Naopak například Říčany efektivně uzavírají plánovací smlouvy a silnice jsou stavěny za významné spoluúčasti developerů zároveň s novou výstavbou.`,
+    `V rámci smysluplného územního plánování jsou povolovány městské čtvrti tak, aby měly plnou občanskou vybavenost a neparazitovaly na zbytku města. V Berouně radnice největší záměry stále připravuje téměř bez škol, školek a bez obchodů, častou jsou poddimenzována i parkovací místa, takže nově příchozí obsazují okolní parkoviště,`,
+    `&#9899; <strong className="programme_title">CO NAVRHUJEME:</strong>`,
+    `Naší prioritou bude <strong>bezpečná cesta do škol</strong>. Věříme, že jde o quick-win, který se v Berouně dlouho podceňuje a zanedbává.`,
+    `V součinnosti s krajem zajistíme:`,
+    `<strong>&#9679;</strong> Nutnou <strong>opravu mostu T.G.M.</strong> tak, aby byl co nejméně dotčen provoz a život v Berouně.`,
+    `<strong>&#9679;</strong> <strong>Velkorysý jižní most včetně jižního napojení k Zabitému</strong> jako alternativu pro rozšíření dálnice D5 na 6 pruhů.`,
+    `<strong>&#9679;</strong> Projekt a výstavbu propojení, která <strong>odlehčí páteřním komunikacím a již léta jsou odkládána</strong>, tj. Tyršova – Koněpruská, Višňová - Palouček, Třída míru – Lidl, OMV jih – Maxit, Golf - K Zabitému.`,
+    `<strong>&#9679;</strong> Další vymezení modrých zón a <strong>důslednou komunikaci s okolními obcemi o možnosti parkování nebo jejich podílu na nákladech na dojíždění</strong>.`,
+    `<strong>&#9679;</strong> <strong>Optimalizaci MHD</strong> - návaznost na autobusové i vlakové spoje z Prahy, podporu vytíženosti a dostatečné frekvence spojů.`,
+    `<strong>&#9679;</strong> <strong>Optimalizaci sítě sdílených elektrokol </strong> - doplnění o sdílená kola bez elektřiny a posílení sítě, zónové stání, zlevnění provozu.` 
+
     ]
   },
   {
