@@ -233,9 +233,25 @@ export const ProgrammePoints = [
     theme: 'Městská zeleň & voda',
     image: 'tree',
     paragraphs: [
-      `Beroun je krásné město, ale je čím dál více sužováno <strong>dlouho neřešenými problémy</strong>.`,
-    `Současné vedení radnice povolilo rozsáhlou developerskou výstavbu, aniž by myslelo na problémy, které tato výstavba přinese. V průběhu <strong>příštích pěti let</strong> přibyde v Berouně kvůli nové výstavbě <strong>6 500 nových obyvatel</strong>!`,
-    `Beroun na tento růst není připraven téměř v žádném ohledu - nestačí kapacita školek a škol, zácpy a hustá doprava jsou na denním pořádku a město má již nyní problémy s kapacitou vodovodu.`
+      `&#9899<strong className="programme_title"> JAK JE TO U NÁS:</strong>`,
+    `Již minimálně od roku 2016 se v Berouně mluví o <strong>vyčerpání kapacity pro zásobování pitnou vodou</strong>, přesto schválilo vedení města územní plán s novou výstavbou až pro 1840 bytů.
+    Je s podivem, že se za této krizové situace město <strong>nesnaží nijak získat vlastní zdroje vody</strong> a kapacitu vodovodu z Prahy řeší s vodárnou až za situace, která je na hranici možností stávajícího zdroje.`,
+    `Beroun extrémně zatěžuje dálnice D5 ať už jde o hluk, nebo oxidy dusíku, kvůli kterým je Beroun <strong>jedním z nejhorších míst v Čechách, co se týká kvality ovzduší</strong>.`,
+    `Přestože parky a investice do ozelenění města opakovaně vyhrávají ankety co v Berouně zlepšit, většina takových investic se odkládá. 
+    <strong>Kde jsou parky „Na Špici“ a „Homolka“, které slibovalo vedení města před svým znovuzvolením v květnu 2018?</strong>`,
+    `V letech 2017-2019 město sázelo <strong>do 50 stromů ročně</strong>. Až vznik spolku <strong>Berounská zeleň</strong> a jeho důsledný tlak na náhradní výsadby vedlo k postupnému vyrovnání kácení a výsadeb na cca 250 stromů ročně. 
+    Proč město <strong>nebylo schopno samo vytipovat náhradní plochy a vymáhat adekvátní náhradní výsadbu</strong> po investorech již dříve?`,
+    `Rada města bez jakékoli diskuze souhlasila <strong>s výstavbou v přírodní lokalitě Na Ptáku</strong>, která by de facto umožnila <strong>zástavbu na pravém břehu mezi Berounem a Hýskovem</strong>. Naopak <strong>ignorovala doporučení odborníků</strong> z komise životního prostředí, 
+    ať už v případě revitalizace parku Městská hora, nebo změny struktury investic do zeleně a její údržby.`,
+    `&#9899; <strong className="programme_title">CO NAVRHUJEME:</strong>`,
+    `Bereme nedostatek vody jako zásadní limit pro rozvoj města a využijeme všech zákonných prostředků, abychom <strong>nepovolili výstavbu dříve, než bude dostatečná kapacita vodovodu</strong>.`,
+    `Máme <strong>zmapované alternativní zdroje vody</strong> a budeme jako významný akcionář a člen dozorčí rady Vodovodů a kanalizací (VaK) <strong>prosazovat napojení na tyto alternativní zdroje vody</strong>.`,
+    `Konečně postavíme <strong>vodovodní přípojku na vodovod ve Svatém Janu v městské části Beroun-Hostím</strong>, jejíž obyvatelé čekají na pitnou vodu déle před pět let.`,
+    `Vysadíme až <strong>350 stromů ročně</strong>.`,
+    `Zaměříme se na všech 5 větších parků - <strong>Zábranský park, park Homolka, propojení Štulovna – Ostrov (park na Špici), revitalizace městské hory a park kolem bývalého autobusového nádraží.</strong>`,
+    `Vstoupíme do jednání s ministerstvem životního prostředí a ministerstvem dopravy a budeme důsledně vyžadovat ekonomické zdůvodnění přínosů rozšíření dálnice D5. 
+    Naším cílem bude <strong>prosadit úplné odstoupení od záměru rozšiřovat D5 mezi exity Beroun-Východ a Beroun-Západ</strong>. Věříme, že levnější a lepší alternativou bude <strong>stavba kapacitního jižního obchvatu</strong> jako krajské komunikace včetně tunelů a napojení na D5 v exitu Beroun-Východ, které budeme prosazovat.`,
+    `Připojíme se ke Svazu energetických manažerů měst a obcí a budeme po vzoru ostatních měst <strong>systematicky snižovat energetickou zátěž jednotlivých veřejných budov</strong>.` 
     ]
   },
   {
@@ -244,7 +260,8 @@ export const ProgrammePoints = [
     paragraphs: [
       `Beroun je krásné město, ale je čím dál více sužováno <strong>dlouho neřešenými problémy</strong>.`,
     `Současné vedení radnice povolilo rozsáhlou developerskou výstavbu, aniž by myslelo na problémy, které tato výstavba přinese. V průběhu <strong>příštích pěti let</strong> přibyde v Berouně kvůli nové výstavbě <strong>6 500 nových obyvatel</strong>!`,
-    `Beroun na tento růst není připraven téměř v žádném ohledu - nestačí kapacita školek a škol, zácpy a hustá doprava jsou na denním pořádku a město má již nyní problémy s kapacitou vodovodu.`
+    `Beroun na tento růst není připraven téměř v žádném ohledu - nestačí kapacita školek a škol, zácpy a hustá doprava jsou na denním pořádku a město má již nyní problémy s kapacitou vodovodu.`,
+    
     ]
   },
 ]
