@@ -61,9 +61,9 @@ const Home: NextPage = () => {
           </div>
           <div className={styles.smallProfiles}>
             {SmallProfiles.map((profile) => {
-              const { title, profession, number } = profile;
+              const { title, profession, number, photo } = profile;
               return (
-                <SmallProfile title={title} profession={profession} number={number} key={title} />
+                <SmallProfile title={title} profession={profession} number={number} photo={photo} key={title} />
               )
             }
             )}

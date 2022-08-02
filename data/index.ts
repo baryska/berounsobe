@@ -3,6 +3,15 @@ import EK from '../public/eva_small.jpg';
 import HK from '../public/hanka_small.jpg';
 import MV from '../public/martin_small.jpeg';
 import AV from '../public/adam_small.jpg';
+import Hummel from '../public/borek_hummel.jpg';
+import Svatosova from '../public/michaela_svatosova.jpg';
+import Cernovska from '../public/zuzana_cernovska.jpg';
+import Kotrc from '../public/matyas_kotrc.jpg';
+import Cirkvova from '../public/jana_cirkvova.jpg';
+import Frydl from '../public/ales_frydl.jpg';
+import Zykan from '../public/jan_zykan.jpg';
+import Kovarik from '../public/michal_kovarik.jpg';
+import Default from '../public/BerounsobeLogo.jpg';
 
 export const Profiles = [
   {
@@ -15,10 +24,10 @@ export const Profiles = [
     title: "Mgr. Adam Voldán",
     profession: "Učitel, pojistný matematik",
     photo: AV,
-    text: `Jsem otec, manžel, učitel, pojistný matematik, ekolog a sportovec. V Berouně jsem se narodil a vyrostl, k místu mám velký vztah a věřím, že tohle město má na víc!
-    To mě motivovalo vstoupit do komunální politiky a v roce 2018 jsem se stal zastupitelem, nakonec jen opozičním, bez přímého vlivu na rozhodnutí rady nebo vedení města. Přesto jsem se snažil nebýt pouhým kritikem, ale přinášet řadu podnětů a zlepšení. Řada z nich byla vyslyšena zčásti, některé byly zcela zadupány do země. Za nejdůležitější úspěch považuji fakt, že se nám podařilo přesvědčit některé další zastupitele a zablokovat návrh výstavby v území Na Ptáku, kde se navrhovala změna ÚP (poměr hlasování 10:10). Tento záměr mě motivuje i nadále být v zastupitelstvu a snažit se nedovolit další rozšiřování ploch pro výstavbu. Mezi další dílčí úspěchy považuji prosazení participativního rozpočtu, alej podél Plzeňské ulice, stejně jako urychlení náhradní výsadby. Z nesplněných návrhů bych zdůraznil plánování investičních projektů v horizontu 4 let, aby vznikala jasná shoda, do kterých projektů se má investovat, a aby nedocházelo k investicím bez dlouhodobého záměru.
-    Nyní pracuji jako učitel, a tak získávám přehled o potřebách širšího spektra lidí. Ze své předchozí profese pojistného matematika mám navíc velmi dobrou představu o demografii, statistice, tvorbě makroekonomických modelů, nebo povodňových modelech a vodohospodářských datech. Během své matematické kariéry jsem hodně cestoval a pracoval v Yorku, Hamburku, Vídni nebo Miláně, každé z těchto měst mě oslovilo a inspirovalo, rád bych tuto inspiraci převedl i do Berouna.
-    Tohle město má na víc!`
+    text: `V Berouně žiji od narození, k místu mám velký vztah a věřím, že tohle město má na víc!
+    V roce 2018 jsem se stal zastupitelem, ale jen opozičním, bez přímého vlivu na rozhodnutí vedení města. Přesto jsem přinášel podněty a zlepšení. Za nejdůležitější úspěch beru zablokovování výstavby “Na Ptáku”, kde současné vedení navrhovalo změnit územní plán a rozšířit možnou zástavbu (hlasovácí pat 10:10). Tento záměr mě motivuje i nadále být v zastupitelstvu a nedovolit další rozšiřování ploch pro výstavbu. Za další úspěchy považuji prosazení participativního rozpočtu, alej podél Plzeňské ulice, nebo založení spolku Berounská zeleň. Z nesplněných bych zmínil návrh na dlouhodobé a transparentní plánování veřejných investic.
+    Nyní jsem učitel, dříve pojistný matematik. Tato kombinace mi dává přehled o potřebách jedinců, ale i o demografii, statistice, ekonomii nebo vodohospodářství.
+    `
   },
   {
     title: "Mgr. Barbora Skálová, Ph.D.",
@@ -30,7 +39,9 @@ export const Profiles = [
     title: "Mgr. Eva Kotrčová",
     profession: "Učitelka, speciální pedagožka",
     photo: EK,
-    text: "Narodila jsem se v Praze, kde jsem vyrostla a vystudovala. Se svou rodinou bydlím 13 let v Berouně. Mou profesí je speciální pedagogika a učitelství na 1. stupni. Jsem předsedkyní z.s. Ratinka, který se zabývá ochranou přírody. Ve svém soukromí mám ráda aktivní způsob života, jsem komunikativní a do politiky mířím s cílem změnit věci v Berouně k lepšímu."
+    text: `Narodila jsem se v Praze, kde jsem vyrostla a vystudovala. Se svou rodinou bydlím 13 let v Berouně, který vnímám jako krásné místo pro život. Mou profesí je speciální pedagogika a učitelství na 1. stupni. Tuto práci mám velmi ráda, své žáky se snažím provázet především se snahou je od dalšího vzdělávání neodradit. 
+    Od začátku války vedu kurzy jazyka pro uprchlíky.
+    Jsem členkou pěveckého sdružení Gabriel, který svá vystoupení připravuje především pro ty, kteří se na běžné koncerty dostat nemohou. Jsem předsedkyní z.s. Ratinka, který se stará o údržbu cenných bezlesí v okolí Berouna. Nerada slyším, že něco nejde a ráda bych přispěla k tomu, aby v politice zavládla poctivá diskuze a slušnost.`
   },
   {
     title: "Mgr. Hana Kašparová, MBA",
@@ -44,81 +55,97 @@ export const SmallProfiles = [
   {
     title: "Václav Roztočil",
     profession: "Výrobce městských informačních systémů, hokejový trenér",
+    photo: Default,
     number: 6,
   },
   {
     title: "Ing. Petr Veselý",
     profession: "IT specialista",
+    photo: Default,
     number: 7,
   },
   {
     title: "Zuzana Černovská",
     profession: "Pedagožka a sociální pracovnice",
+    photo: Cernovska,
     number: 8,
   },
   {
     title: "Lenka Keresztenyová",
     profession: "Radiologická asistentka",
+    photo: Default,
     number: 9,
   },
   {
     title: "Ing. Adéla Schmiedová, Ph.D",
     profession: "Ředitelka neziskové organizace MAS Jihozápad",
+    photo: Default,
     number: 10,
   },
   {
     title: "Ing. Michal Kovářík",
     profession: "Odborný asistent na technické VŠ",
+    photo: Kovarik,
     number: 11,
   },
   {
     title: "Jana Církvová",
     profession: "Ekonomka",
+    photo: Cirkvova,
     number: 12,
   },
   {
     title: "Aleš Frýdl",
     profession: "Policista",
+    photo: Frydl,
     number: 13,
   },
   {
     title: "Mgr. Jana Králová",
     profession: "Učitelka",
+    photo: Default,
     number: 14,
   },
   {
     title: "Ivan Konvalinka",
     profession: "Majitel autoservisu",
+    photo: Default,
     number: 15,
   },
   {
     title: "Ing. Michaela Svatošová",
     profession: "Daňová poradkyně, účetní",
+    photo: Svatosova,
     number: 16,
   },
   {
     title: "Bořek Hummel",
     profession: "Majitel autoservisu",
+    photo: Hummel,
     number: 17,
   },
   {
     title: "Mgr. Jan Zykán",
     profession: "Hostinský z hospůdky u Krobiána",
+    photo: Zykan,
     number: 18,
   },
   {
     title: "Tomáš Matyáš Kotrč",
     profession: "Umělecký truhlář, student",
+    photo: Kotrc,
     number: 19,
   },
   {
     title: "Milan Slepička",
     profession: "Živnostník v oboru pohostinství",
+    photo: Default,
     number: 20,
   },
   {
     title: "Stanislav Pospíšil",
     profession: "Živnostník v oboru stavebnictví",
+    photo: Default,
     number: 21,
   },
 ]
@@ -128,12 +155,12 @@ export const ProgrammePoints = [
     theme: '',
     image: 'empty',
     paragraphs: [
-      `Beroun je krásné město, ale je čím dál více sužováno <strong>dlouho neřešenými problémy</strong>.`,
-      `Současné vedení radnice povolilo rozsáhlou developerskou výstavbu, aniž by myslelo na problémy, které tato výstavba přinese. V průběhu <strong>příštích pěti let</strong> přibyde v Berouně kvůli nové výstavbě <strong>1 800 nových bytů, 6 500 nových obyvatel a z toho 550 školou povinných dětí!</strong>`,
-      `Beroun na tento růst není připraven téměř v žádném ohledu - <strong>nestačí kapacita školek a škol</strong>, <strong>zácpy a hustá doprava</strong> jsou na denním pořádku a město má již nyní <strong>problémy s kapacitou vodovodu</strong>.`,
-      `Radnice nejen že situaci neřeší, ale navíc <strong>plánovala i další výstavbu v lokalitě Na Ptáku</strong>, kterou se nám z lavic opozičních zastupitelů prozatím podařilo zastavit.`,
+      `Beroun je krásné město, ale je čím dál více sužováno <strong>dlouho neřešenými problémy</strong>. Město přitom vedou <strong>stále stejní lidé a politické strany</strong>.`,
+      `Hlavní příčinou problémů je mnoho let trvající <strong>neřízené povolování developerské bytové výstavby</strong> bez ohledu na kapacitu městské infrastruktury. Poslední změny územního plánu, které koalice povolila, umožní v průběhu příštích pěti let výstavbu <strong>1 840 bytů a příchod 6 500 nových obyvatel, z toho 550 školou povinných dětí!</strong> `,
+      `Beroun na <strong>30% nárůst obyvatel</strong> není připraven téměř v žádném ohledu - <strong>nestačí kapacita školek a škol</strong>, <strong>zácpy a hustá doprava</strong> jsou na denním pořádku a město má již nyní <strong>problémy s kapacitou vodovodu</strong>.`,
+      `Radnice nejen že situaci neřeší, ale navíc <strong>plánovala umožnit i další výstavbu v přírodní lokalitě Na Ptáku</strong>, kterou se nám z lavic opozičních zastupitelů prozatím podařilo zastavit.`,
       `S obyvateli Berouna navíc současné vedení města <strong>komunikuje arogantně a povýšeně</strong> - ať na jednání zastupitelstva, nebo na sociálních sítích.`,
-      `V opozici se nám mnohé věci podařily, ale sílu připravit se na překotné změny, které Beroun čekají, budeme mít jen v radě města. Po mnoha letech vlády stále stejných lidí <strong>Beroun konečně potřebuje změnu</strong>.`
+      `V opozici se nám mnohé věci podařily, ale sílu napravit dlouhodobě narůstající dluh v městské infrastruktuře a připravit se na překotné změny, které Beroun čekají, budeme mít jen v radě města. Po mnoha letech vlády stále stejných lidí a stran <strong>Beroun konečně potřebuje změnu</strong>.`
     ],
   },
   {
@@ -141,19 +168,19 @@ export const ProgrammePoints = [
     image: 'schoolbag',
     paragraphs: [
       `&#9899<strong className="programme_title"> JAK JE TO U NÁS:</strong>`,
-      `<strong>Do roku 2027</strong> přibyde v Berouně podle demografických odhadů <strong>minimálně 550 dětí</strong> ve školním věku.`,
-    `Beroun utratil v posledních dvou letech <strong>235 milionů</strong> za rekonstrukci dvou základních škol a navýšil
+      `<strong>Do roku 2027</strong> přibude v Berouně podle demografických odhadů <strong>minimálně 550 dětí</strong> ve školním věku.`,
+    `Vedení Berouna utratilo v posledních dvou letech <strong>235 milionů</strong> za rekonstrukci dvou základních škol a navýšilo
     jejich kapacitu o <strong>pouhých 90 míst</strong>. To je cca <strong>2,5 milionu na jedno místo</strong>.`,
-    `<strong>Kapacita mateřských škol</strong> je již dnes <strong>zcela naplněna</strong>. Současné vedení navýšilo kapacitu školek za poslední 4 roky o <strong>pouhých 44 míst</strong>. 
-    <strong>Stavba plánované školky Na Máchovně je ve skluzu</strong>, zatím není připravená ani 
+    `<strong>Kapacita mateřských škol</strong> je již dnes <strong>zcela naplněna</strong>. Současné vedení města navýšilo kapacitu školek za poslední 4 roky o <strong>pouhých 44 míst</strong>. 
+    <strong>Stavba plánované školky Na Máchovně je ve skluzu</strong>, zatím není připravena ani 
     projektová dokumentace, přestože město plánovalo otevřít školku již ve školním roce 2024/2025. Kvůli neregulované výstavbě bude v roce 2030 <strong>chybět v Berouně
     minimálně 80 míst v MŠ</strong>, a to jen v případě, že se zdárně dokončí školka Na Máchovně.`,
-    `V příštích letech hrozí ještě větší <strong>nedostatek míst ve školách a školkách</strong>. Při zachování stávající
+    `V příštích letech hrozí kvůli nárůstu počtu bytů ještě větší <strong>nedostatek míst ve školách a školkách</strong>. Při zachování stávající
     spádovosti bude kapacita zcela nedostatečná. Současná radnice navrhuje <strong>vyloučení dětí z okolních
     obcí</strong> z možnosti navštěvovat školy v Berouně. Za celé volební období nebylo vedení města schopno dojít ke konstruktivní dohodě s okolními obcemi, ani zásadně navýšit kapacitu škol a školek.`,
     `Radnice ve svých plánech zcela otevřeně <strong>spoléhá na soukromé školky, dětské skupiny a soukromé školy</strong>, přestože každé berounské dítě má nárok na bezplatné vzdělávání a město je povinno
     mu jej nabídnout. V současnosti z 97 dětí v berounských soukromých školkách je jen 30 z Berouna.`,
-    `Investorovi soukromé školy <strong>odpustilo současné vedení 90 % developerského poplatku</strong>, který bude v rozpočtu města chybět.`,
+    `Investorovi soukromé školy <strong>odpustilo současné vedení 90 % developerského poplatku (téměř 7 milionů Kč)</strong>, který bude v rozpočtu města chybět.`,
     `&#9899; <strong className="programme_title">JAK TO DĚLAJÍ JINDE:</strong>`,
     `V Mníšku pod Brdy postavili zcela nový pavilon základní školy, který sbírá architektonické ceny, za 112 milionů Kč. Vytvořili 160 nových míst, jedno tedy vyšlo na cca 700 000 Kč.`,
     `V Letech u Dobřichovic postavili novou školu. Vzniklo 125 nových míst a stavba vyšla na 52 milionů. Za jedno nové místo tedy Lety zaplatily cca 400 000 Kč.`,
@@ -168,9 +195,14 @@ export const ProgrammePoints = [
     theme: 'Doprava',
     image: 'bus',
     paragraphs: [
-      `Beroun je krásné město, ale je čím dál více sužováno <strong>dlouho neřešenými problémy</strong>.`,
-    `Současné vedení radnice povolilo rozsáhlou developerskou výstavbu, aniž by myslelo na problémy, které tato výstavba přinese. V průběhu <strong>příštích pěti let</strong> přibyde v Berouně kvůli nové výstavbě <strong>6 500 nových obyvatel</strong>!`,
-    `Beroun na tento růst není připraven téměř v žádném ohledu - nestačí kapacita školek a škol, zácpy a hustá doprava jsou na denním pořádku a město má již nyní problémy s kapacitou vodovodu.`
+    `&#9899<strong className="programme_title"> JAK JE TO U NÁS:</strong>`,
+    `Podle poslední studie jsou všechny páteřní komunikace v Berouně <strong>přetíženy cca o třetinu</strong> své kapacity.`,
+    `Město stále čeká na dotace z kraje, mezitím řešení a nápady postupně ztrácejí smysl, od roku 2007 má Beroun již 3 dopravní studie, ale <strong>realizuje se sotva 10% návrhů</strong>.`,
+    `Již více než 3 volební období mluví vedení města o stavbě nového jižního mostu, ale mezitím hlavní most přes Berounku zchátral tak, že bude nutno jeho větší část zcela vyměnit. <strong>Nově plánovanému jižnímu mostu budou chybět navazující komunikace, a tak zatím vypadá, že bude vybudována pouze dočasná náhrada pro pokrytí dopravy po dobu opravy mostu stávajícího.</strong>`,
+    `Přestože všechny dopravní studie již léta doporučují zprůjezdnit Beroun vybudováním alternativních komunikací tak, že se propojí stávající trasy, fakticky se <strong>v těchto záměrech nijak nepokročilo</strong> (Tyršova – Koněpruská, Višňová, Třída míru – Lidl, OMV jih – Maxit, Golf - K Zabitému).`,
+    `Vybudování obchvatových komunikací OMV jih – Maxit a Golf - K Zabitému <strong>mělo být zajištěno soukromými investory</strong> jako součást souhlasu města s jejich investičními záměry. Město z nepochopitelných důvodů na splnění těchto závazků netrvalo, investorům v rozporu se smlouvami i vydanými povoleními záměry zkolaudovalo a dokonce jim <strong>prominulo i pokuty v celkové výši 45 milionů korun.</strong>`,
+    `<strong>Obyvatelé Závodí mají kvůli těmto kauzám oprávněné obavy</strong> z opakování situace při povolení <strong>developerského projektu Pískovna (200 bytů)</strong> a radnicí slibovaném dopravním řešení situace, založeném na „severním obchvatu“. Zůstane stejně jako golf a Maxit také jen na papíře, aby se podmínkám územního plánu učinilo za dost? <strong>Město ani developer nemají totiž potřebné pozemky pro obchvat ve svém vlastnictví.</strong> 
+    `
     ]
   },
   {
