@@ -168,7 +168,7 @@ export const ProgrammePoints = [
     image: 'empty',
     paragraphs: [
       `Beroun je krásné město, ale je čím dál více sužováno <strong>dlouho neřešenými problémy</strong>. Město přitom vedou <strong>stále stejní lidé a politické strany</strong>.`,
-      `Hlavní příčinou problémů je mnoho let trvající <strong>neřízené povolování developerské bytové výstavby</strong> bez ohledu na kapacitu městské infrastruktury. Poslední změny územního plánu, které koalice povolila, umožní v průběhu příštích pěti let výstavbu <strong>1 840 bytů a příchod 6 500 nových obyvatel, z toho 550 školou povinných dětí!</strong> `,
+      `Hlavní příčinou problémů je mnoho let trvající <strong>neřízené povolování developerské bytové výstavby</strong> bez ohledu na kapacitu městské infrastruktury. Poslední změny územního plánu, které koalice povolila, umožní v průběhu příštích pěti let výstavbu <strong>1&nbsp;840 bytů a příchod 6&nbsp;500 nových obyvatel, z toho 550 školou povinných dětí!</strong> `,
       `Beroun na <strong>30% nárůst obyvatel</strong> není připraven téměř v žádném ohledu - <strong>nestačí kapacita školek a škol</strong>, <strong>zácpy a hustá doprava</strong> jsou na denním pořádku a město má již nyní <strong>problémy s kapacitou vodovodu</strong>.`,
       `Radnice nejen že situaci neřeší, ale navíc <strong>plánovala umožnit i další výstavbu v přírodní lokalitě Na Ptáku</strong>, kterou se nám z lavic opozičních zastupitelů prozatím podařilo zastavit.`,
       `S obyvateli Berouna navíc současné vedení města <strong>komunikuje arogantně a povýšeně</strong> - ať na jednání zastupitelstva, nebo na sociálních sítích.`,
@@ -194,8 +194,8 @@ export const ProgrammePoints = [
     mu jej nabídnout. V současnosti z 97 dětí v berounských soukromých školkách je jen 30 z Berouna.`,
     `Investorovi soukromé školy <strong>odpustilo současné vedení 90 % developerského poplatku (téměř 7 milionů Kč)</strong>, který bude v rozpočtu města chybět.`,
     `&#9899; <strong className="programme_title">JAK TO DĚLAJÍ JINDE:</strong>`,
-    `V Mníšku pod Brdy postavili zcela nový pavilon základní školy, který sbírá architektonické ceny, za 112 milionů Kč. Vytvořili 160 nových míst, jedno tedy vyšlo na cca 700 000 Kč.`,
-    `V Letech u Dobřichovic postavili novou školu. Vzniklo 125 nových míst a stavba vyšla na 52 milionů. Za jedno nové místo tedy Lety zaplatily cca 400 000 Kč.`,
+    `V Mníšku pod Brdy postavili zcela nový pavilon základní školy, který sbírá architektonické ceny, za 112 milionů Kč. Vytvořili 160 nových míst, jedno tedy vyšlo na cca 700&nbsp;000 Kč.`,
+    `V Letech u Dobřichovic postavili novou školu. Vzniklo 125 nových míst a stavba vyšla na 52 milionů. Za jedno nové místo tedy Lety zaplatily cca 400&nbsp;000 Kč.`,
     `&#9899; <strong className="programme_title">CO NAVRHUJEME:</strong>`,
     `Dáme <strong>absolutní prioritu výstavbě nové školy a školky</strong>, neexistuje důležitější investice než do vzdělání našich dětí. Nenabízíme jen plané sliby.`,
     `Než budou nové budovy postaveny, <strong>najdeme alternativní prostory ve vlastnictví města a kraje</strong>. Máme již vytipované konkrétní objekty.`,
@@ -234,7 +234,7 @@ export const ProgrammePoints = [
     image: 'tree',
     paragraphs: [
       `&#9899<strong className="programme_title"> JAK JE TO U NÁS:</strong>`,
-    `Již minimálně od roku 2016 se v Berouně mluví o <strong>vyčerpání kapacity pro zásobování pitnou vodou</strong>, přesto schválilo vedení města územní plán s novou výstavbou až pro 1840 bytů.
+    `Již minimálně od roku 2016 se v Berouně mluví o <strong>vyčerpání kapacity pro zásobování pitnou vodou</strong>, přesto schválilo vedení města územní plán s novou výstavbou až pro 1&nbsp;840 bytů.
     Je s podivem, že se za této krizové situace město <strong>nesnaží nijak získat vlastní zdroje vody</strong> a kapacitu vodovodu z Prahy řeší s vodárnou až za situace, která je na hranici možností stávajícího zdroje.`,
     `Beroun extrémně zatěžuje dálnice D5 ať už jde o hluk, nebo oxidy dusíku, kvůli kterým je Beroun <strong>jedním z nejhorších míst v Čechách, co se týká kvality ovzduší</strong>.`,
     `Přestože parky a investice do ozelenění města opakovaně vyhrávají ankety co v Berouně zlepšit, většina takových investic se odkládá. 
