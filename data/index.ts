@@ -11,6 +11,9 @@ import Cirkvova from '../public/jana_cirkvova.jpg';
 import Frydl from '../public/ales_frydl.jpg';
 import Zykan from '../public/jan_zykan.jpg';
 import Kovarik from '../public/michal_kovarik.jpg';
+import Roztocil from '../public/vaclav_roztocil.jpg';
+import Keresztenyova from '../public/lenka_keresztenyova.jpg';
+import Konvalinka from '../public/ivan_konvalinka.jpg';
 import Default from '../public/BerounsobeLogo.jpg';
 
 export const Profiles = [
@@ -67,7 +70,7 @@ export const SmallProfiles = [
   {
     title: "Václav Roztočil",
     profession: "Výrobce městských informačních systémů, hokejový trenér",
-    photo: Default,
+    photo: Roztocil,
     number: 6,
   },
   {
@@ -85,7 +88,7 @@ export const SmallProfiles = [
   {
     title: "Lenka Keresztenyová",
     profession: "Radiologická asistentka",
-    photo: Default,
+    photo: Keresztenyova,
     number: 9,
   },
   {
@@ -121,7 +124,7 @@ export const SmallProfiles = [
   {
     title: "Ivan Konvalinka",
     profession: "Majitel autoservisu",
-    photo: Default,
+    photo: Konvalinka,
     number: 15,
   },
   {
@@ -212,11 +215,11 @@ export const ProgrammePoints = [
     `Město stále čeká na dotace z kraje, mezitím řešení a nápady postupně ztrácejí smysl, od roku 2007 má Beroun již 3 dopravní studie, ale <strong>realizuje se sotva 10% návrhů</strong>.`,
     `Již více než 3 volební období mluví vedení města o stavbě nového jižního mostu, ale mezitím hlavní most přes Berounku zchátral tak, že bude nutno jeho větší část zcela vyměnit. <strong>Nově plánovanému jižnímu mostu budou chybět navazující komunikace, a tak zatím vypadá, že bude vybudována pouze dočasná náhrada pro pokrytí dopravy po dobu opravy mostu stávajícího.</strong>`,
     `Přestože všechny dopravní studie již léta doporučují zprůjezdnit Beroun vybudováním alternativních komunikací tak, že se propojí stávající trasy, fakticky se <strong>v těchto záměrech nijak nepokročilo</strong> (Tyršova – Koněpruská, Višňová, Třída míru – Lidl, OMV jih – Maxit, Golf - K Zabitému).`,
-    `Vybudování obchvatových komunikací OMV jih – Maxit a Golf - K Zabitému <strong>mělo být zajištěno soukromými investory</strong> jako součást souhlasu města s jejich investičními záměry. Město z nepochopitelných důvodů na splnění těchto závazků netrvalo, investorům v rozporu se smlouvami i vydanými povoleními záměry zkolaudovalo a dokonce jim <strong>prominulo i pokuty v celkové výši 45 milionů korun.</strong>`,
+    `Vybudování obchvatových komunikací ÖMV jih – Maxit a Golf - K Zabitému <strong>mělo být zajištěno soukromými investory</strong> jako součást souhlasu města s jejich investičními záměry. Město z nepochopitelných důvodů na splnění těchto závazků netrvalo, investorům v rozporu se smlouvami i vydanými povoleními záměry zkolaudovalo a dokonce jim <strong>prominulo i pokuty v celkové výši 45 milionů korun.</strong>`,
     `<strong>Obyvatelé Závodí mají kvůli těmto kauzám oprávněné obavy</strong> z opakování situace při povolení <strong>developerského projektu Pískovna (200 bytů)</strong> a radnicí slibovaném dopravním řešení situace, založeném na „severním obchvatu“. Zůstane stejně jako golf a Maxit také jen na papíře, aby se podmínkám územního plánu učinilo za dost? <strong>Město ani developer nemají totiž potřebné pozemky pro obchvat ve svém vlastnictví.</strong>`,
     `&#9899; <strong className="programme_title">JAK TO DĚLAJÍ JINDE:</strong>`,
     `Města, kde se vedení řídí zájmem svých občanů, neodpouští developerům jejich závazky. Naopak například Říčany efektivně uzavírají plánovací smlouvy a silnice jsou stavěny za významné spoluúčasti developerů zároveň s novou výstavbou.`,
-    `V rámci smysluplného územního plánování jsou povolovány městské čtvrti tak, aby měly plnou občanskou vybavenost a neparazitovaly na zbytku města. V Berouně radnice největší záměry stále připravuje téměř bez škol, školek a bez obchodů, častou jsou poddimenzována i parkovací místa, takže nově příchozí obsazují okolní parkoviště,`,
+    `V rámci smysluplného územního plánování jsou povolovány městské čtvrti tak, aby měly plnou občanskou vybavenost a neparazitovaly na zbytku města. V Berouně radnice největší záměry stále připravuje téměř bez škol, školek a bez obchodů, často jsou poddimenzována i parkovací místa, takže nově příchozí obsazují okolní parkoviště,`,
     `&#9899; <strong className="programme_title">CO NAVRHUJEME:</strong>`,
     `Naší prioritou bude <strong>bezpečná cesta do škol</strong>. Věříme, že jde o quick-win, který se v Berouně dlouho podceňuje a zanedbává.`,
     `V součinnosti s krajem zajistíme:`,
@@ -272,7 +275,7 @@ export const ProgrammePoints = [
     kteří k územnímu plánování nemají žádné vzdělání. Ve městě bují <strong>klientelismus</strong>.`,
     `<strong>&#9679;</strong> Poslední velká <strong>změna územního plánu</strong> proběhla v roce 2017, územní plán by měl být právně závazný dokument s dlouhodobým výhledem (cca 10 let), vedení města však umožnilo jeho důkladnou revizi již v roce 2019, 
     tj. <strong>po pouhých 2 letech</strong>.`,
-    `<strong>&#9679;</strong> Termín podání připomínek k územnímu plánu byl začátek roku 2020, přesto se <strong>nejvýznamnější a nejkontroverznější návrh nové výstavby 250 domů Na Ptáku</strong> dostal do řízení podáním z února 2020.
+    `<strong>&#9679;</strong> Termín podání připomínek k územnímu plánu byl začátek roku 2020, přesto se <strong>nejvýznamnější a nejkontroverznější návrh nové výstavby 40 domů Na Ptáku</strong> dostal do řízení podáním z února 2020.
     Balík 64 návrhů na pořízení změn územního plánu byl tak projednáván ve stejný den jako rozpočet na příští rok, pro zrychlení přijetí tohoto kontroverzního návrhu navíc vedení města navrhlo schvalovat celý balík najednou.`,
     `<strong>&#9679;</strong> Vedení města <strong>nebere v potaz návrhy některých odborných komisí</strong>, např. komise životního prostředí.`,
     `&#9899; <strong className="programme_title">JAK TO DĚLAJÍ JINDE:</strong>`,
