@@ -31,7 +31,6 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-        <Header />
         <section className={styles.home}>
           <Statements />
           <IntroPicture />
