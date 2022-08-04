@@ -11,6 +11,7 @@ function Consent() {
   const acceptCookie = () => {
     setConsent(true);
     setCookie('localConsent', 'true', { maxAge: 60 * 60 * 24 * 365 });
+    // @ts-ignore
     gtag('consent', 'update', {
       ad_storage: 'granted',
       analytics_storage: 'granted',
