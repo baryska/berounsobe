@@ -4,6 +4,7 @@ import { config } from "@fortawesome/fontawesome-svg-core";
 import Script from "next/script";
 import { Layout } from '../sections/Layout/Layout';
 import { getCookie } from 'cookies-next';
+import Head from "next/head";
 config.autoAddCss = false;
 
 import type { AppProps } from 'next/app';
@@ -14,6 +15,9 @@ function MyApp({ Component, pageProps }: AppProps) {
   const consent = getCookie('localConsent');
   return (
     <>
+    <Head>
+        <link rel="shortcut icon" href="favicon.ico" />
+      </Head>
       <Script
         id="gtag"
         strategy="afterInteractive"
