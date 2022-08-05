@@ -15,9 +15,6 @@ function MyApp({ Component, pageProps }: AppProps) {
   const consent = getCookie('localConsent');
   return (
     <>
-    <Head>
-        <link rel="shortcut icon" href="favicon.ico" />
-      </Head>
       <Script
         id="gtag"
         strategy="afterInteractive"
@@ -36,20 +33,20 @@ function MyApp({ Component, pageProps }: AppProps) {
                       })(window,document,'script','dataLayer','GTM-PR95W6K');`,
         }}
       />
-        {consent === true && (
-          <Script
-            id="consupd"
-            strategy="afterInteractive"
-            dangerouslySetInnerHTML={{
-              __html: `
+      {consent === true && (
+        <Script
+          id="consupd"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
               gtag('consent', 'update', {
                 'ad_storage': 'granted',
                 'analytics_storage': 'granted'
               });
             `,
-            }}
-          />
-        )}
+          }}
+        />
+      )}
       <Layout>
         <Component {...pageProps} />¨
       </Layout>
