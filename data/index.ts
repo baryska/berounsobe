@@ -14,14 +14,21 @@ import Kovarik from '../public/michal_kovarik.jpg';
 import Roztocil from '../public/vaclav_roztocil.jpg';
 import Keresztenyova from '../public/lenka_keresztenyova.jpg';
 import Konvalinka from '../public/ivan_konvalinka.jpg';
-import Default from '../public/BerounsobeLogo.jpg';
+import Vesely from '../public/petr_vesely.jpg';
+import Schmiedova from '../public/adela_schmiedova.png';
+import Kralova from '../public/jana_kralova.jpg';
+import Default from '../public/logo_transparent.png';
 
 export const Profiles = [
   {
     title: "Ing. Martin Veselý",
     profession: "Architekt, projektant",
     photo: MV,
-    text: "Do 'křížku' s politikou jsem se poprvé dostal v roce 2012 v kauze “Tesco” v Berouně jako odborný poradce místním občanům, které tehdejší vedení radnice hodilo přes palubu. Tehdy jsme i založili sdružení Beroun Sobě které v roce 2014 poprvé kandidovalo do zastupitelstva. Poprvé jsem byl zvolen do zastupitelstva v roce 2018 a činný jsem dodnes. Bylo toho spousty za ty 4 roky, ale nejvíc jsem hrdý na sérii demonstrací v Berouně proti Andreji Babišovi. Jsem regionální koordinátor Milionu Chvilek, zakladatel Berounské Zeleně, autor projektu “Obnova aleje v Talichově ulici”, spoluautor projektu “Tůní v Brdatkách” a pořadatel koncertu pro Ukrajinu."
+    text: `Šest let opoziční zastupitel. Osm let člen komise výstavby. Pojďme Beroun o poznání více posunout k městu, které je přívětivější pro své občany 
+    a lákavější pro jeho návštěvníky. Využijeme jeho potenciál místa obyvatelům. V nejbližší době budem čelit dalším novým výzvám v oblasti školství nebo 
+    dopravy a budeme na ně muset reagovat. Podle všech signálů už je dokonce pozdě. Nárůst obyvatel. Čím dál větší dopravní komplikace. Problémy se 
+    školstvím. Všemu se budeme muset postavit a reagovat na to. Během posledních let jsme se mohli na to postupně připravovat. Ale neudělali jsme to. 
+    Teď je na nás to dohnat.`
    },
   {
     title: "Mgr. Adam Voldán",
@@ -76,7 +83,7 @@ export const SmallProfiles = [
   {
     title: "Ing. Petr Veselý",
     profession: "IT specialista",
-    photo: Default,
+    photo: Vesely,
     number: 7,
   },
   {
@@ -94,7 +101,7 @@ export const SmallProfiles = [
   {
     title: "Ing. Adéla Schmiedová, Ph.D",
     profession: "Ředitelka neziskové organizace MAS Jihozápad",
-    photo: Default,
+    photo: Schmiedova,
     number: 10,
   },
   {
@@ -118,7 +125,7 @@ export const SmallProfiles = [
   {
     title: "Mgr. Jana Králová",
     profession: "Učitelka",
-    photo: Default,
+    photo: Kralova,
     number: 14,
   },
   {
