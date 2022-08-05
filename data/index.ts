@@ -50,26 +50,35 @@ export const Profiles = [
     profession: "Softwarová vývojářka, lektorka programování pro děti",
     photo: BS,
     text: `Narodila jsem se v Praze, ale už deset let žiji se svým manželem a dvěma dcerami v malebné části Berouna, v Hostímě. Před pěti lety jsem zde iniciovala vznik 
-    osadního výboru a jako jeho předsedkyně se dlouhodobě snažím o zavedení vodovodu a kanalizace do Hostíma.
+    osadního výboru a jako jeho předsedkyně se dlouhodobě snažím o zavedení vodovodu a kanalizace do Hostíma. Opakované narážení na aroganci moci mě přivedlo k rozhodnutí pokusit se změnit politickou kulturu i způsob, jakým je spravováno naše krásné město.
     Vystudovala jsem finštinu a moderní dějiny, takže občas něco překládám, občas někde učím, ale živím se jako softwarová vývojářka. 
     Webové aplikace vyvíjím i jako dobrovolník pro organizaci Česko.digital. Hodně pracuji s dětmi, které ve volnočasových kroužcích 
     učím programovat, a také s nimi každé léto jezdím jako vedoucí na vodácký tábor.  Intenzivně se zajímám 
-    o stav českého školství a ráda bych přispěla k proměně českých škol v moderní, přátelské a inovativní instituce. Mám ráda severní Evropu, 
-    severský design a architekturu, knížky, rozhledny, řeky a moře a japonskou kuchyni.`
+    o stav českého školství a ráda bych přispěla k proměně českých škol v moderní, přátelské a inovativní instituce.`
   },
   {
     title: "Mgr. Eva Kotrčová",
     profession: "Učitelka, speciální pedagožka",
     photo: EK,
-    text: `Narodila jsem se v Praze, kde jsem vyrostla a vystudovala. Se svou rodinou bydlím 13 let v Berouně, který vnímám jako krásné místo pro život. Mou profesí je speciální pedagogika a učitelství na 1. stupni. Tuto práci mám velmi ráda, své žáky se snažím provázet především se snahou je od dalšího vzdělávání neodradit. 
+    text: `Narodila jsem se v Praze, kde jsem vyrostla a vystudovala. Se svou rodinou bydlím 13 let v Berouně, 
+    který vnímám jako krásné místo pro život. Mou profesí je speciální pedagogika a učitelství na 1. stupni. Tuto práci mám velmi ráda, 
+    své žáky se snažím provázet především se snahou je od dalšího vzdělávání neodradit. 
     Od začátku války vedu kurzy jazyka pro uprchlíky.
-    Jsem členkou pěveckého sdružení Gabriel, který svá vystoupení připravuje především pro ty, kteří se na běžné koncerty dostat nemohou. Jsem předsedkyní z.s. Ratinka, který se stará o údržbu cenných bezlesí v okolí Berouna. Nerada slyším, že něco nejde a ráda bych přispěla k tomu, aby v politice zavládla poctivá diskuze a slušnost.`
+    Jsem členkou pěveckého sdružení Gabriel, který svá vystoupení připravuje především pro ty, 
+    kteří se na běžné koncerty dostat nemohou. Jsem předsedkyní z.s. Ratinka, který se stará o údržbu cenných bezlesí v okolí Berouna. 
+    Nerada slyším, že něco nejde a ráda bych přispěla k tomu, aby v politice zavládla poctivá diskuze a slušnost.`
   },
   {
     title: "Mgr. Hana Kašparová, MBA",
     profession: "Ekonomka",
     photo: HK,
-    text: "Narodila jsem se ve Valašském Meziříčí, v Berouně žiji od roku 2009 společně se svým skvělým mužem, dvěma dětmi, psem a dvěma králíky. Vystudovala jsem ekonomii na Univerzitě Karlově a MBA na Ecole Superiere do Commerce v Rennes v Bretani. 24 let jsem pracovala jako ekonom a manažer ve velké mezinárodní společnosti v několika zemích. Žila jsem v Londýně, Rennes, Bruselu a Budapešti. V současné době studuji a praktikuji aromaterapii a působím jako konzultant v oblasti organizace, řízení a zlepšování procesů ve firmách. Beroun je skvělé město, ale jeho rychlý růst, který není doprovázen promyšleným rozvojem infrastruktury, jeho potenciál pomalu ale jistě dusí. Zajímá mě, v jakém prostředí se svou rodinou žiji, chci, aby Beroun byl i nadále příjemným místem pro život, a proto jsem se rozhodla přispět ke změně v dalším směřování tohoto krásného města."
+    text: `Narodila jsem se ve Valašském Meziříčí, v Berouně žiji od roku 2009 společně se svým skvělým mužem, dvěma dětmi, psem a dvěma králíky. 
+    Vystudovala jsem ekonomii na Univerzitě Karlově a MBA na Ecole Superiere do Commerce v Rennes v Bretani. 24 let jsem pracovala jako ekonom 
+    a manažer ve velké mezinárodní společnosti v několika zemích. Žila jsem v Londýně, Rennes, Bruselu a Budapešti. V současné době studuji a 
+    praktikuji aromaterapii a působím jako konzultant v oblasti organizace, řízení a zlepšování procesů ve firmách. Beroun je skvělé město, 
+    ale jeho rychlý růst, který není doprovázen promyšleným rozvojem infrastruktury, jeho potenciál pomalu ale jistě dusí. Zajímá mě, v jakém 
+    prostředí se svou rodinou žiji, chci, aby Beroun byl i nadále příjemným místem pro život, a proto jsem se rozhodla přispět ke změně v dalším 
+    směřování tohoto krásného města.`
   },
 ]
 
