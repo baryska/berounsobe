@@ -50,7 +50,8 @@ export const Profiles = [
     profession: "Softwarová vývojářka, lektorka programování pro děti",
     photo: BS,
     text: `Narodila jsem se v Praze, ale už deset let žiji se svým manželem a dvěma dcerami v malebné části Berouna, v Hostímě. Před pěti lety jsem zde iniciovala vznik 
-    osadního výboru a jako jeho předsedkyně se dlouhodobě snažím o zavedení vodovodu a kanalizace do Hostíma. Opakované narážení na aroganci moci mě přivedlo k rozhodnutí pokusit se změnit politickou kulturu i způsob, jakým je spravováno naše krásné město.
+    osadního výboru a jako jeho předsedkyně se dlouhodobě snažím o zavedení vodovodu a kanalizace do Hostíma. Opakovaný střet s arogancí moci mě přivedl k rozhodnutí pokusit 
+    se změnit politickou kulturu i způsob, jakým je spravováno toto krásné město.
     Vystudovala jsem finštinu a moderní dějiny, takže občas něco překládám, občas někde učím, ale živím se jako softwarová vývojářka. 
     Webové aplikace vyvíjím i jako dobrovolník pro organizaci Česko.digital. Hodně pracuji s dětmi, které ve volnočasových kroužcích 
     učím programovat, a také s nimi každé léto jezdím jako vedoucí na vodácký tábor.  Intenzivně se zajímám 
