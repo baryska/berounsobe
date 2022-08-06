@@ -265,7 +265,7 @@ export const ProgrammePoints = [
     `&#9899; <strong className="programme_title">CO NAVRHUJEME:</strong>`,
     `Bereme nedostatek vody jako zásadní limit pro rozvoj města a využijeme všech zákonných prostředků, abychom <strong>nepovolili výstavbu dříve, než bude dostatečná kapacita vodovodu</strong>.`,
     `Máme <strong>zmapované alternativní zdroje vody</strong> a budeme jako významný akcionář a člen dozorčí rady Vodovodů a kanalizací (VaK) <strong>prosazovat napojení na tyto alternativní zdroje vody</strong>.`,
-    `Konečně postavíme <strong>vodovodní přípojku na vodovod ve Svatém Janu v městské části Beroun-Hostím</strong>, jejíž obyvatelé čekají na pitnou vodu déle před pět let.`,
+    `Konečně postavíme <strong>vodovodní přípojku na vodovod ve Svatém Janu pod Skalou v městské části Beroun-Hostím</strong>, jejíž obyvatelé čekají na pitnou vodu déle než pět let.`,
     `Vysadíme až <strong>350 stromů každý rok</strong>.`,
     `Postupně revitalizujeme všech 5 větších parků - <strong>Zábranský park, park Homolka, propojení Štulovna – Ostrov (park na Špici), revitalizace městské hory a park kolem bývalého autobusového nádraží.</strong>`,
     `Vstoupíme do jednání s ministerstvem životního prostředí a ministerstvem dopravy a budeme důsledně vyžadovat ekonomické zdůvodnění přínosů rozšíření dálnice D5. 
