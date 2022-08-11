@@ -17,6 +17,7 @@ import Konvalinka from '../public/ivan_konvalinka.jpg';
 import Vesely from '../public/petr_vesely.jpg';
 import Schmiedova from '../public/adela_schmiedova.png';
 import Kralova from '../public/jana_kralova.jpg';
+import Slepicka from '../public/milan_slepicka.jpg';
 import Default from '../public/logo_transparent.png';
 
 export const Profiles = [
@@ -171,7 +172,7 @@ export const SmallProfiles = [
   {
     title: "Milan Slepička",
     profession: "Živnostník v oboru pohostinství",
-    photo: Default,
+    photo: Slepicka,
     number: 20,
   },
   {
@@ -230,7 +231,7 @@ export const ProgrammePoints = [
     `Podle poslední studie jsou všechny páteřní komunikace v Berouně <strong>přetíženy cca o třetinu</strong> své kapacity.`,
     `Město stále čeká na dotace z kraje, mezitím řešení a nápady postupně ztrácejí smysl, od roku 2007 má Beroun již 3 dopravní studie, ale <strong>realizuje se sotva 10% návrhů</strong>.`,
     `Již více než 3 volební období mluví vedení města o stavbě nového jižního mostu, ale mezitím hlavní most přes Berounku zchátral tak, že bude nutno jeho větší část zcela vyměnit. <strong>Nově plánovanému jižnímu mostu budou chybět navazující komunikace, a tak zatím vypadá, že bude vybudována pouze dočasná náhrada pro pokrytí dopravy po dobu opravy mostu stávajícího.</strong>`,
-    `Přestože všechny dopravní studie již léta doporučují zprůjezdnit Beroun vybudováním alternativních komunikací tak, že se propojí stávající trasy, fakticky se <strong>v těchto záměrech nijak nepokročilo</strong> (Tyršova – Koněpruská, Viničná, Třída míru – Lidl, ÖMV jih – Maxit, Golf - K Zabitému).`,
+    `Přestože všechny dopravní studie již léta doporučují zprůjezdnit Beroun vybudováním alternativních komunikací tak, že se propojí stávající trasy, fakticky se <strong>v těchto záměrech nijak nepokročilo</strong> (Tyršova – Koněpruská, Viničná - Palouček, Třída míru – Lidl, ÖMV jih – Maxit, Golf - K Zabitému).`,
     `Vybudování obchvatových komunikací ÖMV jih – Maxit a Golf - K Zabitému <strong>mělo být zajištěno soukromými investory</strong> jako součást souhlasu města s jejich investičními záměry. Město z nepochopitelných důvodů na splnění těchto závazků netrvalo, investorům v rozporu se smlouvami i vydanými povoleními záměry zkolaudovalo a dokonce jim <strong>prominulo i pokuty v celkové výši 45 milionů korun.</strong>`,
     `<strong>Obyvatelé Závodí mají kvůli těmto kauzám oprávněné obavy</strong> z opakování situace při povolení <strong>developerského projektu Pískovna (asi 280 bytů)</strong> a radnicí slibovaném dopravním řešení situace, založeném na „severním obchvatu“. Zůstane stejně jako golf a Maxit také jen na papíře, aby se podmínkám územního plánu učinilo za dost? <strong>Město ani developer nemají totiž potřebné pozemky pro obchvat ve svém vlastnictví.</strong>`,
     `&#9899; <strong className="programme_title">JAK TO DĚLAJÍ JINDE:</strong>`,
