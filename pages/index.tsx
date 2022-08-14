@@ -10,6 +10,7 @@ import IntroPicture from '../components/IntroPicture/IntroPicture';
 import ContactForm from '../components/ContactForm/ContactForm';
 import Programme from '../components/Programme/Programme';
 import styles from '../styles/Home.module.css';
+import GroupPic from '../public/vsichni_small.jpg'
 
 const Home: NextPage = () => {
 
@@ -28,6 +29,16 @@ const Home: NextPage = () => {
         <meta name="description" content="Beroun sobě - Beroun má na víc!" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
+        <meta name="referrer" content="no-referrer" />
+        <meta property="og:image" content="../public/vsichni_small.jpeg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta name="og:title" content="Beroun sobě" />
+        <meta name="og:description" content="Beroun sobě - Beroun má na víc!" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="../public/vsichni_small.jpeg" />
+        <meta name="twitter:title" content="Beroun sobě" />
+        <meta name="twitter:description" content="Beroun sobě - Beroun má na víc!" />
       </Head>
 
       <main>
