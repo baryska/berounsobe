@@ -12,7 +12,7 @@ function IntroPicture() {
 
   return (
     <div className={styles.introPicture}>
-      <Image src={Group} alt="group"  placeholder="blur" priority/>
+      <Image src={Group} alt="group"  placeholder="blur"/>
       <div className={styles.typewriterWrapper}>
         <Typewriter
           onInit={(typewriter) => {
