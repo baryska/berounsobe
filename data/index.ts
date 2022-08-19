@@ -220,7 +220,14 @@ export const ProgrammePoints = [
     `&#9899; <strong className="programme_title">CO NAVRHUJEME:</strong>`,
     `Dáme <strong>absolutní prioritu výstavbě nové školy a školky</strong>, neexistuje důležitější investice než do vzdělání našich dětí.`,
     `Než budou nové budovy postaveny, <strong>najdeme alternativní prostory ve vlastnictví města a kraje</strong>. Máme již vytipované konkrétní objekty.`,
-    `Začneme konstruktivně a se vzájemným respektem <strong>vyjednávat s okolními obcemi a hledat společné řešení</strong>. Současné vedení města chce řešit problémy, které samo zanedbalo, na úkor dětí z okolních obcí.`
+    `Začneme konstruktivně a se vzájemným respektem <strong>vyjednávat s okolními obcemi a hledat společné řešení</strong>. Současné vedení města chce řešit problémy, které samo zanedbalo, na úkor dětí z okolních obcí.`,
+    `Budeme aktivně podporovat <strong>moderní a inovativní výuku</strong> - podpoříme <strong>profesní růst a vzdělávání učitelů</strong> a přivedeme do Berouna učitele s proaktivním přístupem a kladným vztahem k moderním vzdělávacím
+    trendům.`,
+    `Podpoříme mezinárodní spolupráci, <strong>kvalitní výuku jazyků</strong> a výměnné pobyty.`,
+    `Podpoříme <strong>moderní výuku IT</strong> a programování. Připravíme děti na život v 21. století.`,
+    `Vytvoříme <strong>platformu pro lepší komunikaci mezi školami, rodiči a městem</strong>. Chceme vědět, co rodiče i školy trápí, a pomoci najít řešení.`,
+    `Zapojíme studenty a žáky do návrhů na zlepšování kvality života v Berouně v rámci <strong>studentského participativního rozpočtu</strong>.`,
+    `<strong>Zrekonstruujeme "Wagnerku"</strong>, tj. berounskou 3. základní školu.`
     ]
   },
   {
