@@ -221,6 +221,7 @@ export const ProgrammePoints = [
     `Dáme <strong>absolutní prioritu výstavbě nové školy a školky</strong>, neexistuje důležitější investice než do vzdělání našich dětí.`,
     `Než budou nové budovy postaveny, <strong>najdeme alternativní prostory ve vlastnictví města a kraje</strong>. Máme již vytipované konkrétní objekty.`,
     `Začneme konstruktivně a se vzájemným respektem <strong>vyjednávat s okolními obcemi a hledat společné řešení</strong>. Současné vedení města chce řešit problémy, které samo zanedbalo, na úkor dětí z okolních obcí.`,
+    `Kapacita škol ale není všechno, chceme pro naše děti <strong>moderní vzdělání</strong>, které je dostatečně připraví na budoucnost:`,
     `Budeme aktivně podporovat <strong>moderní a inovativní výuku</strong> - podpoříme <strong>profesní růst a vzdělávání učitelů</strong> a přivedeme do Berouna učitele s proaktivním přístupem a kladným vztahem k moderním vzdělávacím
     trendům.`,
     `Podpoříme mezinárodní spolupráci, <strong>kvalitní výuku jazyků</strong> a výměnné pobyty.`,
