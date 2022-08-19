@@ -222,13 +222,13 @@ export const ProgrammePoints = [
     `Než budou nové budovy postaveny, <strong>najdeme alternativní prostory ve vlastnictví města a kraje</strong>. Máme již vytipované konkrétní objekty.`,
     `Začneme konstruktivně a se vzájemným respektem <strong>vyjednávat s okolními obcemi a hledat společné řešení</strong>. Současné vedení města chce řešit problémy, které samo zanedbalo, na úkor dětí z okolních obcí.`,
     `Kapacita škol ale není všechno, chceme pro naše děti <strong>moderní vzdělání</strong>, které je dostatečně připraví na budoucnost:`,
-    `Budeme aktivně podporovat <strong>moderní a inovativní výuku</strong> - podpoříme <strong>profesní růst a vzdělávání učitelů</strong> a přivedeme do Berouna učitele s proaktivním přístupem a kladným vztahem k moderním vzdělávacím
+    `<strong>&#9679;</strong> Budeme aktivně podporovat <strong>moderní a inovativní výuku</strong> - podpoříme <strong>profesní růst a vzdělávání učitelů</strong> a přivedeme do Berouna učitele s proaktivním přístupem a kladným vztahem k moderním vzdělávacím
     trendům.`,
-    `Podpoříme mezinárodní spolupráci, <strong>kvalitní výuku jazyků</strong> a výměnné pobyty.`,
-    `Podpoříme <strong>moderní výuku IT</strong> a programování. Připravíme děti na život v 21. století.`,
-    `Vytvoříme <strong>platformu pro lepší komunikaci mezi školami, rodiči a městem</strong>. Chceme vědět, co rodiče i školy trápí, a pomoci najít řešení.`,
-    `Zapojíme studenty a žáky do návrhů na zlepšování kvality života v Berouně v rámci <strong>studentského participativního rozpočtu</strong>.`,
-    `<strong>Zrekonstruujeme "Wagnerku"</strong>, tj. berounskou 3. základní školu.`
+    `<strong>&#9679;</strong> Podpoříme mezinárodní spolupráci, <strong>kvalitní výuku jazyků</strong> a výměnné pobyty.`,
+    `<strong>&#9679;</strong> Podpoříme <strong>moderní výuku IT</strong> a programování. Připravíme děti na život v 21. století.`,
+    `<strong>&#9679;</strong> Vytvoříme <strong>platformu pro lepší komunikaci mezi školami, rodiči a městem</strong>. Chceme vědět, co rodiče i školy trápí, a pomoci najít řešení.`,
+    `<strong>&#9679;</strong> Zapojíme studenty a žáky do návrhů na zlepšování kvality života v Berouně v rámci <strong>studentského participativního rozpočtu</strong>.`,
+    `<strong>&#9679;</strong> <strong>Zrekonstruujeme "Wagnerku"</strong>, tj. berounskou 3. základní školu.`
     ]
   },
   {
