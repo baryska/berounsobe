@@ -15,11 +15,12 @@ function Programme() {
         </div>
       </h1>
       {ProgrammePoints.map((point) => {
-        const { image, theme, paragraphs } = point;
+        const { image, theme, paragraphs, anchor } = point;
         return (
-          <article className={styles.programme} key={Math.random()}>
+          <article className={styles.programme} key={Math.random()} id={anchor}>
             <div className={styles.theme}>
-              <span className={styles.themeImage}><Image src={`/${image}.svg`} layout="fill" objectFit="contain" alt={image} /></span> <p className={styles.title}>{theme}</p></div>
+              <span className={styles.themeImage}><Image src={`/${image}.svg`} layout="fill" objectFit="contain" alt={image} /></span> <p className={styles.title}>{theme}</p>
+            </div>
             <div className={styles.content}>
               <div className={styles.title}></div>
               <div className={styles.text}>

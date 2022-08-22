@@ -186,6 +186,7 @@ export const SmallProfiles = [
 export const ProgrammePoints = [
   {
     theme: '',
+    anchor: '',
     image: 'empty',
     paragraphs: [
       `Beroun je krásné město, ale je čím dál více sužováno <strong>dlouho neřešenými problémy</strong>. Město přitom vedou <strong>stále stejní lidé a politické strany</strong>.`,
@@ -198,6 +199,7 @@ export const ProgrammePoints = [
   },
   {
     theme: 'Školy & školky',
+    anchor: 'skolstvi',
     image: 'schoolbag',
     paragraphs: [
       `&#9899<strong className="programme_title"> JAK JE TO U NÁS:</strong>`,
@@ -233,6 +235,7 @@ export const ProgrammePoints = [
   },
   {
     theme: 'Doprava',
+    anchor: 'doprava',
     image: 'bus',
     paragraphs: [
       `&#9899<strong className="programme_title"> JAK JE TO U NÁS:</strong>`,
@@ -259,6 +262,7 @@ export const ProgrammePoints = [
   },
   {
     theme: 'Městská zeleň & voda',
+    anchor: 'zelen',
     image: 'tree',
     paragraphs: [
       `&#9899<strong className="programme_title"> JAK JE TO U NÁS:</strong>`,
@@ -284,6 +288,7 @@ export const ProgrammePoints = [
   },
   {
     theme: 'Otevřená radnice',
+    anchor: 'transparentnost',
     image: 'handshake',
     paragraphs: [
       `&#9899<strong className="programme_title"> JAK JE TO U NÁS:</strong>`,
