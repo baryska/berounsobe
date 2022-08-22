@@ -15,9 +15,9 @@ function Programme() {
         </div>
       </h1>
       {ProgrammePoints.map((point) => {
-        const { image, theme, paragraphs, anchor } = point;
+        const { image, theme, paragraphs } = point;
         return (
-          <article className={styles.programme} key={Math.random()} id={anchor}>
+          <article className={styles.programme} key={Math.random()}>
             <div className={styles.theme}>
               <span className={styles.themeImage}><Image src={`/${image}.svg`} layout="fill" objectFit="contain" alt={image} /></span> <p className={styles.title}>{theme}</p>
             </div>
