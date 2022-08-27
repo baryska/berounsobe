@@ -241,7 +241,7 @@ export const ProgrammePoints = [
       `&#9899<strong className="programme_title"> JAK JE TO U NÁS:</strong>`,
     `Podle poslední studie jsou všechny páteřní komunikace v Berouně <strong>přetíženy cca o třetinu</strong> své kapacity.`,
     `Město stále čeká na dotace z kraje, mezitím řešení a nápady postupně ztrácejí smysl, od roku 2007 má Beroun již 3 dopravní studie, ale <strong>realizuje se sotva 10% návrhů</strong>.`,
-    `Již více než 3 volební období mluví vedení města o stavbě nového jižního mostu, ale mezitím hlavní most přes Berounku zchátral tak, že bude nutno jeho větší část zcela vyměnit. <strong>Nově plánovanému jižnímu mostu budou chybět navazující komunikace, a tak zatím vypadá, že bude vybudována pouze dočasná náhrada pro pokrytí dopravy po dobu opravy mostu stávajícího.</strong>`,
+    `Již více než 3 volební období mluví vedení města o stavbě nového jižního mostu, ale mezitím hlavní most přes Berounku zchátral tak, že bude nutno jeho větší část zcela vyměnit. <strong>Nově plánovanému jižnímu mostu budou chybět navazující komunikace, a tak to zatím vypadá, že bude vybudována pouze dočasná náhrada pro pokrytí dopravy po dobu opravy mostu stávajícího.</strong>`,
     `Přestože všechny dopravní studie již léta doporučují zprůjezdnit Beroun vybudováním alternativních komunikací tak, že se propojí stávající trasy, fakticky se <strong>v těchto záměrech nijak nepokročilo</strong> (Tyršova – Koněpruská, Viničná - Palouček, Třída míru – Lidl, ÖMV jih – Maxit, Golf - K Zabitému).`,
     `Vybudování obchvatových komunikací ÖMV jih – Maxit a Golf - K Zabitému <strong>mělo být zajištěno soukromými investory</strong> jako součást souhlasu města s jejich investičními záměry. Město z nepochopitelných důvodů na splnění těchto závazků netrvalo, investorům v rozporu se smlouvami i vydanými povoleními záměry zkolaudovalo a dokonce jim <strong>prominulo i pokuty v celkové výši 45 milionů korun.</strong>`,
     `<strong>Obyvatelé Závodí mají kvůli těmto kauzám oprávněné obavy</strong> z opakování situace při povolení <strong>developerského projektu Pískovna (asi 280 bytů)</strong> a radnicí slibovaném dopravním řešení situace, založeném na „severním obchvatu“. Zůstane stejně jako golf a Maxit také jen na papíře, aby se podmínkám územního plánu učinilo za dost? <strong>Město ani developer nemají totiž potřebné pozemky pro obchvat ve svém vlastnictví.</strong>`,
@@ -249,7 +249,7 @@ export const ProgrammePoints = [
     `Města, kde se vedení řídí zájmem svých občanů, neodpouští developerům jejich závazky. Naopak například Říčany efektivně uzavírají plánovací smlouvy a silnice jsou stavěny za významné spoluúčasti developerů zároveň s novou výstavbou.`,
     `V rámci smysluplného územního plánování jsou povolovány městské čtvrti tak, aby měly plnou občanskou vybavenost a neparazitovaly na zbytku města. V Berouně radnice největší záměry stále připravuje téměř bez škol, školek a bez obchodů.`,
     `&#9899; <strong className="programme_title" id="doprava">CO NAVRHUJEME:</strong>`,
-    `Naší prioritou bude <strong>bezpečná cesta do škol, tak aby rodiče nemuseli taxíkařit</strong>. Věříme, že jde o quick-win, který se v Berouně dlouho podceňuje a zanedbává.`,
+    `Naší prioritou bude <strong>bezpečná cesta do škol, tak aby rodiče nemuseli taxikařit</strong>. Věříme, že jde o quick-win, který se v Berouně dlouho podceňuje a zanedbává.`,
     `V součinnosti s krajem budeme prosazovat:`,
     `<strong>&#9679;</strong> Nutnou <strong>opravu mostu T.G.M.</strong> tak, aby byl co nejméně dotčen provoz a život v Berouně.`,
     `<strong>&#9679;</strong> <strong>Velkorysý jižní most včetně jižního napojení k Zabitému</strong> jako alternativu pro rozšíření dálnice D5 na 6 pruhů.`,
@@ -323,7 +323,7 @@ export const ProgrammePoints = [
       `Mezi naše investiční priority bude patřit <strong>náprava dluhu vedení města</strong> z minulých 15 let, tj. výstavba obchvatu a nových obecních škol a školek.`,
       `Zvýšíme objem projektů, které budou odsouhlaseny formou <strong>participativního rozpočtu</strong>.`,
       `Vytvoříme <strong>transparentní rozpočet</strong>, který bude skutečně umožňovat sledování efektivity jednotlivých veřejných výdajů a záměrů. `,
-      `Budeme <strong>otevření, slušní a vstřícní podnětům a názorům občanů</strong>.`,
+      `Budeme <strong>otevření, slušní a vstřícní k podnětům a názorům občanů</strong>.`,
       `Budeme <strong>otevřeně komunikovat se všemi zastupiteli</strong> o prioritách, připravovaných projektech a klíčových rozhodnutích.`,
       `Na webových stránkách města bude <strong>snadno dohledatelný program zastupitelstva</strong> včetně potřebných materiálů a dokumentů. <strong>Zápisy z rady budou opět veřejné</strong>.`  
     ]
