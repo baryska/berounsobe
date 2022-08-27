@@ -91,7 +91,7 @@ const ContactForm = () => {
             Děkujeme Vám za zprávu! Pokud obsahuje dotaz, ozveme se Vám co nejdříve!
           </p>
           <p className={`${styles.resultMessage} ${styles.centered} ${errorMessageVisible ? '' : styles.messageInvisible}`}>
-            Odeslání zprávy se nezdařilo :( Zkuste to prosím znovu nebo nám napište na berounsobe2022@gmail.com. Děkujeme!
+            Odeslání zprávy se nezdařilo :( Zkuste to prosím znovu nebo nám napište na info@berounsobe.eu. Děkujeme!
           </p>
         </div>
         {loading ? (
