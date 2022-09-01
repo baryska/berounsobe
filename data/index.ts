@@ -18,6 +18,7 @@ import Vesely from '../public/petr_vesely.jpg';
 import Schmiedova from '../public/adela_schmiedova.png';
 import Kralova from '../public/jana_kralova.jpg';
 import Slepicka from '../public/milan_slepicka.jpg';
+import Pospisil from '../public/stanislav_pospíšil.jpg';
 import Default from '../public/logo_transparent.png';
 
 export const Profiles = [
@@ -178,7 +179,7 @@ export const SmallProfiles = [
   {
     title: "Stanislav Pospíšil",
     profession: "Živnostník v oboru stavebnictví",
-    photo: Default,
+    photo: Pospisil,
     number: 21,
   },
 ]
