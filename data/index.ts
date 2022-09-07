@@ -255,7 +255,7 @@ export const ProgrammePoints = [
     `<strong>&#9679;</strong> Nutnou <strong>opravu mostu T.G.M.</strong> tak, aby byl co nejméně dotčen provoz a život v Berouně.`,
     `<strong>&#9679;</strong> <strong>Velkorysý jižní most včetně jižního napojení k Zabitému</strong> jako alternativu pro rozšíření dálnice D5 na 6 pruhů.`,
     `<strong>&#9679;</strong> Projekt a výstavbu propojení, která <strong>odlehčí páteřním komunikacím a již léta jsou odkládána</strong>, tj. Tyršova – Koněpruská, Viničná - Palouček, Třída míru – Lidl, OMV jih – Maxit, Golf - K Zabitému.`,
-    `<strong>&#9679;</strong> Snížení rychlosti v noci na 80km/hod na dálnici v katastru města `,
+    `<strong>&#9679;</strong> Snížení <strong>rychlosti v noci na 80km/hod na dálnici</strong> v katastru města `,
     `<strong>&#9679;</strong> Další vymezení modrých zón a <strong>důslednou komunikaci s okolními obcemi o možnosti parkování nebo jejich podílu na nákladech na dojíždění</strong>.`,
     `<strong>&#9679;</strong> <strong>Optimalizaci MHD</strong> - návaznost na autobusové i vlakové spoje z Prahy, podporu vytíženosti a dostatečné frekvence spojů.`,
     `<strong>&#9679;</strong> <strong>Podporu cyklistické dopravy,</strong> zejména zlepšení sítě cyklostezek, a dále optimalizaci sítě sdílených elektrokol (doplnění o sdílená kola bez elektřiny a posílení sítě, zlevnění provozu).`
